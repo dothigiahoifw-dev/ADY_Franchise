@@ -1,0 +1,2 @@
+Chọn M1 cho liên hệ khán giả. So M1 ngân sách và M2 trên cùng mẫu. M2/M3 và M1-C bổ trợ. Gap bậc hai được kiểm tra ở bước 7.
+Xem BAO_CAO_RQ2.md bước 8 để đọc lý do và giới hạn.

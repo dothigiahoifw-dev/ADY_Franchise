@@ -1,0 +1,42 @@
+﻿Dataset,Column,Data Type,Role (suy luận),Unique Values,Missing Count,Missing Percentage
+movies_raw,film_key,str,định danh,39871,0,0.0
+movies_raw,tmdb_id,int64,định danh,39871,0,0.0
+movies_raw,imdb_id,str,định danh,29536,10335,25.92
+movies_raw,title,str,text / categorical,39519,0,0.0
+movies_raw,release_date_ref,str,ngày (text),16580,754,1.89
+movies_raw,tmdb_collection_id,float64,định danh/rời rạc,9728,30,0.08
+movies_raw,director_ids,str,đa trị ('|'),13002,4908,12.31
+movies_raw,lead_cast_ids_superset,str,đa trị ('|'),34535,3542,8.88
+movies_raw,production_company_ids,str,đa trị ('|'),14348,8353,20.95
+movies_raw,genre_ids,str,đa trị ('|'),3833,7035,17.64
+movies_raw,production_budget,float64,số,940,35679,89.49
+movies_raw,budget_missing_flag,bool,cờ (bool),2,0,0.0
+movies_raw,release_month,float64,định danh/rời rạc,12,754,1.89
+movies_raw,vote_count,int64,số,2261,0,0.0
+movies_raw,source,str,hằng số / rỗng,1,0,0.0
+movies_raw,retrieval_date,str,hằng số / rỗng,1,0,0.0
+box_office_raw,film_key,str,định danh,39871,0,0.0
+box_office_raw,market_scope,str,hằng số / rỗng,1,0,0.0
+box_office_raw,global_gross,float64,số,4066,35381,88.74
+box_office_raw,missing_flag,bool,cờ (bool),2,0,0.0
+box_office_raw,source,str,hằng số / rỗng,1,0,0.0
+box_office_raw,retrieval_date,str,hằng số / rỗng,1,0,0.0
+box_office_detailed,film_key,str,định danh,29527,0,0.0
+box_office_detailed,imdb_id,str,định danh,29527,0,0.0
+box_office_detailed,domestic_gross,float64,số,2610,26902,91.11
+box_office_detailed,international_gross,float64,số,5956,23539,79.72
+box_office_detailed,opening_weekend_gross,float64,số,2368,27143,91.93
+box_office_detailed,theater_count,float64,rỗng 100%,0,29527,100.0
+credits_raw,film_key,str,định danh,38430,0,0.0
+credits_raw,person_id,int64,định danh,281809,0,0.0
+credits_raw,role,str,text / categorical,2,0,0.0
+credits_raw,billing_order,float64,số,451,41116,6.43
+credits_raw,source,str,hằng số / rỗng,1,0,0.0
+credits_raw,retrieval_date,str,hằng số / rỗng,1,0,0.0
+rt_scores,film_key,str,định danh,39871,0,0.0
+rt_scores,critic_score,float64,số,101,33488,83.99
+rt_scores,audience_score,float64,số,100,28520,71.53
+rt_scores,rt_url,str,text / categorical,17101,19721,49.46
+rt_scores,rt_status,str,text / categorical,4,0,0.0
+rt_scores,source,str,hằng số / rỗng,1,0,0.0
+rt_scores,retrieval_date,str,hằng số / rỗng,1,0,0.0

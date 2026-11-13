@@ -1,0 +1,15 @@
+M0: coefficients, CR1 SE and CI match original Task 3.
+M1: coefficients, CR1 SE and CI match original Task 3.
+M1-C: coefficients, CR1 SE and CI match original Task 3.
+M1_budget_sample: coefficients, CR1 SE and CI match original Task 3.
+M1_common_RT: coefficients, CR1 SE and CI match original Task 3.
+M2: coefficients, CR1 SE and CI match original Task 3.
+M3: coefficients, CR1 SE and CI match original Task 3.
+M1_positive_excluding_flags: matches original Task 3.
+M1_plus_log_open: matches original Task 3.
+M1_gap_quadratic: matches original Task 3.
+M1_excluding_Cook_screen: matches original Task 3.
+M2 budget sensitivity: matches revised Task 5.
+Step 5 input and design: 676 transitions / 394 franchises verified.
+PASS: all main-model sample IDs, n, franchise counts, R2 and adjusted R2.
+PASS: additional quadratic-gap sensitivity coefficients match Task 4.

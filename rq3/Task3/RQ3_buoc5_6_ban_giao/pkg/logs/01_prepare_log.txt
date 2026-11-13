@@ -1,0 +1,48 @@
+master (25943, 228)
+PASS master transition_id duy nhat
+PASS A0 co Y = 918 dong (moc 918)
+PASS Y huu han tren A0
+PASS opening > 0 tren A0
+PASS Y = ln(open_curr) - ln(open_prev)
+PASS franchise_position_n >= 2
+PASS modeling_eligible tren A0
+PASS moi franchise toi da 1 transition moi vi tri
+A0: 918 transition / 562 franchise
+PASS open_prev khop box_office_detailed.csv goc (918/918)
+PASS open_curr khop box_office_detailed.csv goc (918/918)
+PASS co trung gia tri tinh lai tu raw = co trong audit v3 (7 cap)
+PASS co open>domestic tinh lai tu raw = audit v3 (4 cap)
+A0: 918 transition / 562 franchise
+PASS A0 khop moc 918/562
+A1b: 910 transition / 557 franchise
+PASS A1b khop moc 910/557
+A1: 907 transition / 555 franchise
+PASS A1 khop moc 907/555
+A2: 781 transition / 461 franchise
+PASS A2 khop moc 781/461
+PASS A0 = ids_A0_ref_all_Y_v3.csv
+PASS A1 = ids_A1_drop_suspect_v3.csv
+PASS A2 = ids_A2_drop_suspect_and_lt100k_v3.csv
+PASS A1b = ids_A1b.csv (buoc 4)
+PASS 8 cap nghi van; 3 cap chi co global
+PASS A2 < A1 < A1b < A0 long nhau
+PASS noi ID-master 1:1, khong mat/nhan dong
+PASS hai transition noi dung cung phim 2 (film_key va opening) tren 177 franchise
+PASS D = Y23 - Y12 = ln O3 - 2 ln O2 + ln O1
+D A0: 177 franchise (moc 177)
+D A1b: 176 franchise (moc 176)
+D A1: 176 franchise (moc 176)
+D A2: 160 franchise (moc 160)
+PASS co mau D khop moc buoc 4
+CH (A0): 234 transition / 58 franchise
+CH (A1): 234 transition / 58 franchise
+CH (A2): 225 transition / 55 franchise
+PASS CH(A0) = CH(A1) cung ID
+PASS moi ID CH thuoc A1b -> CH(A1b) = CH(A1) (khong mo rong)
+PASS CH 58/234 (A1b) va 55/225 (A2) khop moc
+PASS noi CH-master 1:1
+PASS CH: vi tri lien tuc tu 2 trong moi franchise
+xuat T1 (918, 30)
+Y=0 trong A0: 7 | Y=0 trong A1b: 0
+|Y|>3 trong A1b (chi bao cao, khong loai): 44
+OK buoc 5

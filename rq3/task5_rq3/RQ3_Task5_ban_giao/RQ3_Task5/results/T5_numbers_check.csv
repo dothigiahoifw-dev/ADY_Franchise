@@ -1,0 +1,199 @@
+﻿item,source_file,value_in_task4_or_inherited,value_recomputed_task5,match,status
+A1b so transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,910,910,True,T5-KT
+A1b so franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,557,557,True,T5-KT
+A1b 2: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,512,512,True,T5-KT
+A1b 2: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,512,512,True,T5-KT
+A1b 2: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-14.411850983703324,-14.411850983703323,True,T5-KT
+A1b 2: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.56640625,0.56640625,True,T5-KT
+A1b 2: Q1 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-51.611632610002175,-51.611632610002175,True,T5-KT
+A1b 2: Q3 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,56.90865161074108,56.90865161074108,True,T5-KT
+A1b 2: so Y=0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0,0,True,T5-KT
+A1b 3: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,204,204,True,T5-KT
+A1b 3: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,204,204,True,T5-KT
+A1b 3: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-17.773499383333245,-17.773499383333245,True,T5-KT
+A1b 3: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.6176470588235294,0.6176470588235294,True,T5-KT
+A1b 3: Q1 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-44.45985797287592,-44.45985797287592,True,T5-KT
+A1b 3: Q3 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,27.613400355187643,27.613400355187643,True,T5-KT
+A1b 3: so Y=0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0,0,True,T5-KT
+A1b 4: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,85,85,True,T5-KT
+A1b 4: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,85,85,True,T5-KT
+A1b 4: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,2.233480849027636,2.233480849027636,True,T5-KT
+A1b 4: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.4823529411764706,0.4823529411764706,True,T5-KT
+A1b 4: Q1 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-44.9468915411404,-44.9468915411404,True,T5-KT
+A1b 4: Q3 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,38.42298486696167,38.42298486696167,True,T5-KT
+A1b 4: so Y=0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0,0,True,T5-KT
+A1b 5: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,41,41,True,T5-KT
+A1b 5: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,41,41,True,T5-KT
+A1b 5: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-28.008601722584427,-28.008601722584427,True,T5-KT
+A1b 5: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.6829268292682927,0.6829268292682927,True,T5-KT
+A1b 5: Q1 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-44.85153397953635,-44.85153397953635,True,T5-KT
+A1b 5: Q3 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,3.675277726567882,3.6752777265678827,True,T5-KT
+A1b 5: so Y=0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0,0,True,T5-KT
+A1b >=6: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,68,68,True,T5-KT
+A1b >=6: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,31,31,True,T5-KT
+A1b >=6: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-1.5577572118251504,-1.5577572118251504,True,T5-KT
+A1b >=6: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.5,0.5,True,T5-KT
+A1b >=6: Q1 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-33.15578938751559,-33.15578938751559,True,T5-KT
+A1b >=6: Q3 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,59.62979649993929,59.62979649993929,True,T5-KT
+A1b >=6: so Y=0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0,0,True,T5-KT
+A1b ALL: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,910,910,True,T5-KT
+A1b ALL: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,557,557,True,T5-KT
+A1b ALL: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-15.17173820101596,-15.17173820101596,True,T5-KT
+A1b ALL: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.5703296703296703,0.5703296703296703,True,T5-KT
+A1b ALL: Q1 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-47.45986578725285,-47.45986578725285,True,T5-KT
+A1b ALL: Q3 %,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,39.76512107373991,39.765121073739905,True,T5-KT
+A1b ALL: so Y=0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0,0,True,T5-KT
+A0 2: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,515,515,True,T5-KT
+A0 2: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,515,515,True,T5-KT
+A0 2: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-13.708005052952457,-13.708005052952455,True,T5-KT
+A0 2: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.5650485436893203,0.5650485436893203,True,T5-KT
+A0 3: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,207,207,True,T5-KT
+A0 3: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,207,207,True,T5-KT
+A0 3: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-17.26567218619398,-17.26567218619398,True,T5-KT
+A0 3: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.6086956521739131,0.6086956521739131,True,T5-KT
+A0 4: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,86,86,True,T5-KT
+A0 4: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,86,86,True,T5-KT
+A0 4: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,1.7410848663991452,1.7410848663991452,True,T5-KT
+A0 4: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.4767441860465116,0.47674418604651164,True,T5-KT
+A0 5: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,42,42,True,T5-KT
+A0 5: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,42,42,True,T5-KT
+A0 5: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-27.88429270370969,-27.88429270370969,True,T5-KT
+A0 5: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.6666666666666666,0.6666666666666666,True,T5-KT
+A0 >=6: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,68,68,True,T5-KT
+A0 >=6: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,31,31,True,T5-KT
+A0 >=6: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-1.5577572118251504,-1.5577572118251504,True,T5-KT
+A0 >=6: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.5,0.5,True,T5-KT
+A0 ALL: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,918,918,True,T5-KT
+A0 ALL: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,562,562,True,T5-KT
+A0 ALL: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-13.657750789189205,-13.657750789189205,True,T5-KT
+A0 ALL: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.5664488017429193,0.5664488017429193,True,T5-KT
+A1 2: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,511,511,True,T5-KT
+A1 2: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,511,511,True,T5-KT
+A1 2: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-13.708005052952457,-13.708005052952455,True,T5-KT
+A1 2: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.5655577299412916,0.5655577299412916,True,T5-KT
+A1 3: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,203,203,True,T5-KT
+A1 3: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,203,203,True,T5-KT
+A1 3: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-17.463864002634498,-17.463864002634498,True,T5-KT
+A1 3: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.6157635467980296,0.6157635467980296,True,T5-KT
+A1 4: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,85,85,True,T5-KT
+A1 4: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,85,85,True,T5-KT
+A1 4: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,2.233480849027636,2.233480849027636,True,T5-KT
+A1 4: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.4823529411764706,0.4823529411764706,True,T5-KT
+A1 5: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,41,41,True,T5-KT
+A1 5: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,41,41,True,T5-KT
+A1 5: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-28.008601722584427,-28.008601722584427,True,T5-KT
+A1 5: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.6829268292682927,0.6829268292682927,True,T5-KT
+A1 >=6: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,67,67,True,T5-KT
+A1 >=6: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,31,31,True,T5-KT
+A1 >=6: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-4.319843342316043,-4.319843342316043,True,T5-KT
+A1 >=6: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.5074626865671642,0.5074626865671642,True,T5-KT
+A1 ALL: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,907,907,True,T5-KT
+A1 ALL: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,555,555,True,T5-KT
+A1 ALL: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-15.109955952102606,-15.109955952102606,True,T5-KT
+A1 ALL: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.5700110253583242,0.5700110253583242,True,T5-KT
+A2 2: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,432,432,True,T5-KT
+A2 2: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,432,432,True,T5-KT
+A2 2: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-10.61075259563382,-10.610752595633821,True,T5-KT
+A2 2: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.5578703703703703,0.5578703703703703,True,T5-KT
+A2 3: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,175,175,True,T5-KT
+A2 3: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,175,175,True,T5-KT
+A2 3: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-17.463864002634498,-17.463864002634498,True,T5-KT
+A2 3: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.6342857142857142,0.6342857142857142,True,T5-KT
+A2 4: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,77,77,True,T5-KT
+A2 4: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,77,77,True,T5-KT
+A2 4: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,3.555214555590269,3.555214555590269,True,T5-KT
+A2 4: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.4545454545454545,0.45454545454545453,True,T5-KT
+A2 5: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,39,39,True,T5-KT
+A2 5: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,39,39,True,T5-KT
+A2 5: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-28.169751486790705,-28.169751486790705,True,T5-KT
+A2 5: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.717948717948718,0.717948717948718,True,T5-KT
+A2 >=6: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,58,58,True,T5-KT
+A2 >=6: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,26,26,True,T5-KT
+A2 >=6: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,2.8944377697693424,2.8944377697693424,True,T5-KT
+A2 >=6: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.4827586206896552,0.4827586206896552,True,T5-KT
+A2 ALL: n transition,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,781,781,True,T5-KT
+A2 ALL: n franchise,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,461,461,True,T5-KT
+A2 ALL: trung vi % thay doi,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,-11.959233017177764,-11.959233017177763,True,T5-KT
+A2 ALL: ty le Y<0,inherited_task4_v2/inherited_step5_6/results/R2_PT1_by_position_all_samples.csv,0.5672215108834827,0.5672215108834827,True,T5-KT
+A0 >=6: trung vi % trong so franchise,inherited_task4_v2/inherited_step5_6/results/R6_weighting_ge6_transition_vs_franchise.csv,-4.319843342316043,-4.319843342316043,True,T5-KT
+A0 >=6: ty le Y<0 trong so franchise,inherited_task4_v2/inherited_step5_6/results/R6_weighting_ge6_transition_vs_franchise.csv,0.5026881720430106,0.5026881720430106,True,T5-KT
+A1b >=6: trung vi % trong so franchise,inherited_task4_v2/inherited_step5_6/results/R6_weighting_ge6_transition_vs_franchise.csv,-4.319843342316043,-4.319843342316043,True,T5-KT
+A1b >=6: ty le Y<0 trong so franchise,inherited_task4_v2/inherited_step5_6/results/R6_weighting_ge6_transition_vs_franchise.csv,0.5026881720430106,0.5026881720430106,True,T5-KT
+A1 >=6: trung vi % trong so franchise,inherited_task4_v2/inherited_step5_6/results/R6_weighting_ge6_transition_vs_franchise.csv,-11.274535580234646,-11.274535580234646,True,T5-KT
+A1 >=6: ty le Y<0 trong so franchise,inherited_task4_v2/inherited_step5_6/results/R6_weighting_ge6_transition_vs_franchise.csv,0.5188172043010751,0.5188172043010751,True,T5-KT
+A2 >=6: trung vi % trong so franchise,inherited_task4_v2/inherited_step5_6/results/R6_weighting_ge6_transition_vs_franchise.csv,4.5304152109895135,4.5304152109895135,True,T5-KT
+A2 >=6: ty le Y<0 trong so franchise,inherited_task4_v2/inherited_step5_6/results/R6_weighting_ge6_transition_vs_franchise.csv,0.4743589743589742,0.47435897435897423,True,T5-KT
+LOFO >=6 (A1b): trung vi % nho nhat,R7_LOFO_ge6_A1b_optional.csv,-7.561468744807298,-7.561468744807309,True,T5-KT
+LOFO >=6 (A1b): trung vi % lon nhat,R7_LOFO_ge6_A1b_optional.csv,2.8944377697693424,2.8944377697693424,True,T5-KT
+LOFO >=6: so lan bo,R7_LOFO_ge6_A1b_optional.csv,31,31,True,T5-KT
+PT3 A1b: n,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,176.0,176,True,T5-KT
+PT3 A1b: trung vi D,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,-0.4657790016481707,-0.46577900164817077,True,T5-KT
+PT3 A1b: ty le D<0,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,0.7215909090909091,0.7215909090909091,True,T5-KT
+PT3 A0: n,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,177.0,177,True,T5-KT
+PT3 A0: trung vi D,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,-0.4649571285043875,-0.4649571285043875,True,T5-KT
+PT3 A0: ty le D<0,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,0.7175141242937854,0.7175141242937854,True,T5-KT
+PT3 A1: n,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,176.0,176,True,T5-KT
+PT3 A1: trung vi D,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,-0.4657790016481707,-0.46577900164817077,True,T5-KT
+PT3 A1: ty le D<0,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,0.7215909090909091,0.7215909090909091,True,T5-KT
+PT3 A2: n,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,160.0,160,True,T5-KT
+PT3 A2: trung vi D,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,-0.4524151229353669,-0.4524151229353669,True,T5-KT
+PT3 A2: ty le D<0,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,0.7375,0.7375,True,T5-KT
+PT3 A1b: trung vi Y(1->2),inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,0.2185432330774057,0.2185432330774057,True,T5-KT
+PT3 A1b: trung vi Y(2->3),inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,-0.1956925439528163,-0.1956925439528163,True,T5-KT
+PT3 A1b: ty le Y(2->3)<0,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,0.625,0.625,True,T5-KT
+PT3 A1b: D = Y23 - Y12,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,True,True,True,T5-KT
+"PT2-lite B3 = {2,3,4}: n franchise",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,69,69,True,T5-KT
+"PT2-lite B3 = {2,3,4}: trung vi % vi tri 2",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,37.09444869180876,37.09444869180876,True,T5-KT
+"PT2-lite B3 = {2,3,4}: cat ngang A1b vi tri 2",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,-14.411850983703324,-14.411850983703323,True,T5-KT
+"PT2-lite B3 = {2,3,4}: trung vi % vi tri 3",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,0.8413356380601478,0.8413356380601478,True,T5-KT
+"PT2-lite B3 = {2,3,4}: cat ngang A1b vi tri 3",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,-17.773499383333245,-17.773499383333245,True,T5-KT
+"PT2-lite B3 = {2,3,4}: trung vi % vi tri 4",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,2.233480849027636,2.233480849027636,True,T5-KT
+"PT2-lite B3 = {2,3,4}: cat ngang A1b vi tri 4",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,2.233480849027636,2.233480849027636,True,T5-KT
+"PT2-lite B4 = {2,3,4,5}: n franchise",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,32,32,True,T5-KT
+"PT2-lite B4 = {2,3,4,5}: trung vi % vi tri 2",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,50.68043499065573,50.68043499065573,True,T5-KT
+"PT2-lite B4 = {2,3,4,5}: cat ngang A1b vi tri 2",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,-14.411850983703324,-14.411850983703323,True,T5-KT
+"PT2-lite B4 = {2,3,4,5}: trung vi % vi tri 3",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,2.353400044037568,2.353400044037568,True,T5-KT
+"PT2-lite B4 = {2,3,4,5}: cat ngang A1b vi tri 3",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,-17.773499383333245,-17.773499383333245,True,T5-KT
+"PT2-lite B4 = {2,3,4,5}: trung vi % vi tri 4",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,10.722796581566564,10.722796581566563,True,T5-KT
+"PT2-lite B4 = {2,3,4,5}: cat ngang A1b vi tri 4",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,2.233480849027636,2.233480849027636,True,T5-KT
+"PT2-lite B4 = {2,3,4,5}: trung vi % vi tri 5",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,-27.88429270370969,-27.88429270370969,True,T5-KT
+"PT2-lite B4 = {2,3,4,5}: cat ngang A1b vi tri 5",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,-28.008601722584427,-28.008601722584427,True,T5-KT
+D(3->4) n,T4_C5b_PT2lite_within_franchise_differences.csv,80,80,True,T5-KT
+D(3->4) trung vi,T4_C5b_PT2lite_within_franchise_differences.csv,-0.1650855404557925,-0.16508554045579255,True,T5-KT
+D(4->5) n,T4_C5b_PT2lite_within_franchise_differences.csv,37,37,True,T5-KT
+D(4->5) trung vi,T4_C5b_PT2lite_within_franchise_differences.csv,-0.4201017234796609,-0.4201017234796609,True,T5-KT
+CH: so franchise,T4_C7b / R4b,58,58,True,T5-KT
+CH: so transition,R4b,234,234,True,T5-KT
+CH: franchise co >=1 dao chieu,R4b,49,49,True,T5-KT
+CH: so cap ke nhau,T4_C7_reversal_rate_adjacent_pairs.csv,176,176,True,T5-KT
+CH: so cap dao chieu,T4_C7_reversal_rate_adjacent_pairs.csv,89,89,True,T5-KT
+CH: ty le cap dao chieu,T4_C7_reversal_rate_adjacent_pairs.csv,0.5056818181818182,0.5056818181818182,True,T5-KT
+CH: toan giam,R4b,4,4,True,T5-KT
+CH: toan tang,R4b,5,5,True,T5-KT
+|Y|>3 trong A1b,T4_C6a,44,44,True,T5-KT
+|Y|>3 duong,T4_C6a,21,21,True,T5-KT
+|Y|>3 am,T4_C6a,23,23,True,T5-KT
+|Y|>3 o vi tri 2,T4_C6a,31,31,True,T5-KT
+bo |Y|>3: trung vi >=6 sau,T4_C6_extreme_Y_scenario.csv,-7.561468744807309,-7.561468744807309,True,T5-KT
+"Vi tri 2, Mau PT3 (co Y o vi tri 2 va 3): n",T4_C2,176,176,True,T5-KT
+"Vi tri 2, Mau PT3 (co Y o vi tri 2 va 3): trung vi %",T4_C2,24.42628087746825,24.426280877468255,True,T5-KT
+"Vi tri 2, Ngoai mau PT3 (co Y vt2, khong co Y vt3): n",T4_C2,336,336,True,T5-KT
+"Vi tri 2, Ngoai mau PT3 (co Y vt2, khong co Y vt3): trung vi %",T4_C2,-33.13130383296512,-33.131303832965116,True,T5-KT
+"Vi tri 2, Mau CH (chuoi Y lien tuc >=3 transition): n",T4_C2,58,58,True,T5-KT
+"Vi tri 2, Mau CH (chuoi Y lien tuc >=3 transition): trung vi %",T4_C2,47.00390206786062,47.00390206786062,True,T5-KT
+"Vi tri 2, Ngoai mau CH: n",T4_C2,454,454,True,T5-KT
+"Vi tri 2, Ngoai mau CH: trung vi %",T4_C2,-22.56649538770895,-22.56649538770895,True,T5-KT
+"PT1 A1b: CI trong R2 = percentile 2,5/97,5 cua 10.000 ban lap luu (6 nhom x 2 dai luong)",bootstrap_reps_PT1_A1b.npz,True,True,True,T5-KT (CI)
+"PT3 A1b: CI 95% trung vi D (chay lai muc tieu 10.000 lan, seed 20260101) - can duoi",inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,-0.6092781570881094,-0.6092781570881094,True,T5-KT (CI)
+PT3 A1b: CI 95% trung vi D - can tren,inherited_task4_v2/inherited_step5_6/results/R3_PT3_D_all_samples.csv,-0.3579193230003668,-0.3579193230003668,True,T5-KT (CI)
+"PT2-lite {2,3,4}: CI trung vi % vi tri 2 - can duoi",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,24.57278039562856,24.572780395628556,True,T5-KT (CI)
+"PT2-lite {2,3,4}: CI trung vi % vi tri 3 - can tren",inherited_task4_v2/results/T4_C5_PT2lite_fixed_franchise_sets.csv,12.580210062993014,12.580210062993014,True,T5-KT (CI)
+R10c: so franchise,R10c_G3_verification_11_franchises.csv,11,11,True,T5-KT
+R10c: ngay phim 3 som nhat,R10c,2026-11-04,2026-11-04,True,T5-KT
+R10c: ngay phim 3 muon nhat,R10c,2028-12-13,2028-12-13,True,T5-KT
+"R10c: moi franchise cap 2->3, unreleased_film, ngay sau retrieval",R10c,True,True,True,T5-KT
+"R10c vs pairs_audit goc: 11 cap 2->3 co ton tai, khong hop le ky thuat, cho unreleased_film",pairs_audit.csv (raw),True,True,True,T5-KT
+R10c vs pairs_audit goc: khoang ngay phim 3,pairs_audit.csv (raw),2026-11-04..2028-12-13,2026-11-04..2028-12-13,True,T5-KT
+films: retrieval_date duy nhat tren 39.871 dong,analysis_master_films.csv (raw),2026-10-22 x 39871,2026-10-22 x 39871,True,T5-KT
+R10c: phim 3 muon nhat (ten),R10c,Black Panther 3,Black Panther 3,True,T5-KT
+R10b: 176/67/258/11 nhom,R10b_observability_per_franchise.csv,176/67/258/11,176/67/258/11,True,T5-KT

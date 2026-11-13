@@ -1,0 +1,24 @@
+TASK 5 — BÀN GIAO MODELING RQ2
+1. TASK5_RQ2.md là nội dung để copy sang Docs.
+2. results chứa bằng chứng số liệu và các biểu đồ.
+3. code/task3 chạy lại Task 3, code/task4 chạy lại kiểm tra Task 4.
+4. Dùng Master của nhóm theo SHA-256 trong results/run_metadata.json.
+
+CÀI THƯ VIỆN
+python -m pip install -r code/task3/requirements.txt
+
+CHẠY TỪ THƯ MỤC ĐÃ GIẢI NÉN
+python code/task3/rq2_task3.py --input "duong/dan/analysis_master_transitions.csv" --out results_task3_chay_lai
+python code/task4/rq2_task4.py "duong/dan/analysis_master_transitions.csv" --task3-results code/task4/task3_inputs
+
+Task 4 ghi kết quả vào code/task4/results.
+finish.py tạo bổ sung biểu đồ ngân sách và bảng chính.
+python finish.py --input "duong/dan/analysis_master_transitions.csv"
+
+Các mã trong gói được giữ để đối chiếu với kết quả Task 3/4 đã bàn giao.
+
+TRẠNG THÁI
+Bản Modeling sẵn sàng review. Chờ kết quả Thống kê bước 3 và kiểm tra chéo với Người 4 để xác nhận chốt chung.
+
+BỔ SUNG KIỂM TRA M2
+python check_m2.py --input "duong/dan/analysis_master_transitions.csv"

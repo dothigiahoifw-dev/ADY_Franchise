@@ -1,0 +1,16 @@
+master (25943, 228) | A0 = 918 transition / 562 franchise
+open_prev khop raw_box_office_detailed__opening_weekend_gross_prev: 918/918
+open_curr khop raw_box_office_detailed__opening_weekend_gross_curr: 918/918
+cross-check dup tren phim trong master: tinh lai 7 | co trong audit 7 | khop tap ID: True
+A0: 918 transition / 562 franchise
+A1b: 910 transition / 557 franchise
+A1: 907 transition / 555 franchise
+A2: 781 transition / 461 franchise
+doi chieu A1 voi ids_A1_drop_suspect_v3.csv: True
+doi chieu A2 voi ids_A2_drop_suspect_and_lt100k_v3.csv: True
+noi A1b-master 1:1 OK; khong mat/nhan dong; khong thieu Y
+A0 theo vi tri: {'2': {'n_transition': 515, 'n_franchise': 515}, '3': {'n_transition': 207, 'n_franchise': 207}, '4': {'n_transition': 86, 'n_franchise': 86}, '5': {'n_transition': 42, 'n_franchise': 42}, '>=6': {'n_transition': 68, 'n_franchise': 31}}
+A1b theo vi tri: {'2': {'n_transition': 512, 'n_franchise': 512}, '3': {'n_transition': 204, 'n_franchise': 204}, '4': {'n_transition': 85, 'n_franchise': 85}, '5': {'n_transition': 41, 'n_franchise': 41}, '>=6': {'n_transition': 68, 'n_franchise': 31}}
+A1 theo vi tri: {'2': {'n_transition': 511, 'n_franchise': 511}, '3': {'n_transition': 203, 'n_franchise': 203}, '4': {'n_transition': 85, 'n_franchise': 85}, '5': {'n_transition': 41, 'n_franchise': 41}, '>=6': {'n_transition': 67, 'n_franchise': 31}}
+A2 theo vi tri: {'2': {'n_transition': 432, 'n_franchise': 432}, '3': {'n_transition': 175, 'n_franchise': 175}, '4': {'n_transition': 77, 'n_franchise': 77}, '5': {'n_transition': 39, 'n_franchise': 39}, '>=6': {'n_transition': 58, 'n_franchise': 26}}
+xuat: ids_A1b.csv 910 | excluded_8_pairs_A1b.csv 8 | kept_3_global_only_pairs.csv 3

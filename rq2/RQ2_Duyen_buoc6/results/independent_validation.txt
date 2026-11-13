@@ -1,0 +1,7 @@
+M0: PASS independent statsmodels coefficient/CR1 SE/CI comparison.
+M1: PASS independent statsmodels coefficient/CR1 SE/CI comparison.
+M1_budget_sample: PASS independent statsmodels coefficient/CR1 SE/CI comparison.
+M2: PASS independent statsmodels coefficient/CR1 SE/CI comparison.
+M3: PASS independent statsmodels coefficient/CR1 SE/CI comparison.
+M1-C: PASS independent statsmodels coefficient/CR1 SE/CI comparison.
+M1_common_RT: PASS independent statsmodels coefficient/CR1 SE/CI comparison.

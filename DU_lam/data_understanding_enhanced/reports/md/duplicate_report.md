@@ -1,0 +1,24 @@
+| Dataset | Check | Count | Note |
+|---|---|---|---|
+| movies_raw | Trùng toàn bộ dòng | 0 |  |
+| movies_raw | film_key bị thiếu | 0 |  |
+| movies_raw | Dòng có film_key lặp (keep=False) | 0 | kỳ vọng 0 (quan hệ 1-1) |
+| box_office_raw | Trùng toàn bộ dòng | 0 |  |
+| box_office_raw | film_key bị thiếu | 0 |  |
+| box_office_raw | Dòng có film_key lặp (keep=False) | 0 | kỳ vọng 0 (quan hệ 1-1) |
+| box_office_detailed | Trùng toàn bộ dòng | 0 |  |
+| box_office_detailed | film_key bị thiếu | 0 |  |
+| box_office_detailed | Dòng có film_key lặp (keep=False) | 0 | kỳ vọng 0 (quan hệ 1-1) |
+| credits_raw | Trùng toàn bộ dòng | 0 |  |
+| credits_raw | film_key bị thiếu | 0 |  |
+| credits_raw | Dòng có film_key lặp (keep=False) | 637,322 | quan hệ 1-N là bình thường |
+| rt_scores | Trùng toàn bộ dòng | 0 |  |
+| rt_scores | film_key bị thiếu | 0 |  |
+| rt_scores | Dòng có film_key lặp (keep=False) | 0 | kỳ vọng 0 (quan hệ 1-1) |
+| credits_raw | Trùng (film_key, person_id, role) - dòng dư | 1,021 | khác nhau ở billing_order; vai trò: {'cast': 1021} |
+| credits_raw | Trùng (film_key, person_id) - dòng dư | 6,265 | gồm cả người vừa là đạo diễn vừa là diễn viên (hợp lệ) |
+| credits_raw | Trùng (film_key, billing_order) trong cast | 3 |  |
+| movies_raw | Số dòng có title trùng (keep=False) | 652 | 39,519 title khác nhau / 39,871 dòng; không phải lỗi |
+| movies_raw | Nhóm title trùng + cùng release_date_ref | 1 | ứng viên trùng phim, cần kiểm tra thủ công |
+| movies_raw | imdb_id trùng (non-null) | 0 |  |
+| movies_raw | tmdb_id trùng | 0 |  |

@@ -1,0 +1,13 @@
+model,variant,pooled_mae,panel
+Y0,main,0.8065651447455128,S1 (719 dòng không cờ)
+Y0,S1,0.8065651447455128,S1 (719 dòng không cờ)
+median,main,0.7966063822697391,S1 (719 dòng không cờ)
+median,S1,0.7967647591441775,S1 (719 dòng không cờ)
+E0,main,0.807676845542681,S1 (719 dòng không cờ)
+E0,S1,0.8056622049429465,S1 (719 dòng không cờ)
+Y0,main,0.8217950138384913,S2 (725 dòng dev)
+Y0,S2,0.8217950138384913,S2 (725 dòng dev)
+median,main,0.8123928139557661,S2 (725 dòng dev)
+median,S2,0.8125844150837738,S2 (725 dòng dev)
+E0,main,0.8253085773216465,S2 (725 dòng dev)
+E0,S2,0.8401434454680176,S2 (725 dòng dev)

@@ -1,0 +1,1457 @@
+{
+ "errors": [],
+ "overview": [
+  {
+   "Dataset": "movies_raw",
+   "Number of Rows": 39871,
+   "Number of Columns": 16,
+   "Key": "film_key",
+   "Unique film_key": 39871,
+   "Full-row duplicates": 0,
+   "Missing cells %": 11.19,
+   "Main Purpose": "Metadata phim (TMDB): tên, ngày phát hành, ngân sách, thể loại, đạo diễn, diễn viên, hãng SX, vote_count"
+  },
+  {
+   "Dataset": "box_office_raw",
+   "Number of Rows": 39871,
+   "Number of Columns": 6,
+   "Key": "film_key",
+   "Unique film_key": 39871,
+   "Full-row duplicates": 0,
+   "Missing cells %": 14.79,
+   "Main Purpose": "Doanh thu toàn cầu (global_gross) từ TMDB API"
+  },
+  {
+   "Dataset": "box_office_detailed",
+   "Number of Rows": 29527,
+   "Number of Columns": 6,
+   "Key": "film_key",
+   "Unique film_key": 29527,
+   "Full-row duplicates": 0,
+   "Missing cells %": 60.46,
+   "Main Purpose": "Doanh thu nội địa / quốc tế / tuần mở màn (theo imdb_id)"
+  },
+  {
+   "Dataset": "credits_raw",
+   "Number of Rows": 639728,
+   "Number of Columns": 6,
+   "Key": "film_key",
+   "Unique film_key": 38430,
+   "Full-row duplicates": 0,
+   "Missing cells %": 1.07,
+   "Main Purpose": "Đoàn làm phim: mỗi dòng = 1 người x 1 vai trò (cast/director) x 1 phim (quan hệ 1-N)"
+  },
+  {
+   "Dataset": "rt_scores",
+   "Number of Rows": 39871,
+   "Number of Columns": 7,
+   "Key": "film_key",
+   "Unique film_key": 39871,
+   "Full-row duplicates": 0,
+   "Missing cells %": 29.28,
+   "Main Purpose": "Điểm Rotten Tomatoes (critic/audience) + trạng thái khớp RT"
+  }
+ ],
+ "miss_pct": {
+  "movies_raw.film_key": 0.0,
+  "movies_raw.tmdb_id": 0.0,
+  "movies_raw.imdb_id": 25.92,
+  "movies_raw.title": 0.0,
+  "movies_raw.release_date_ref": 1.89,
+  "movies_raw.tmdb_collection_id": 0.08,
+  "movies_raw.director_ids": 12.31,
+  "movies_raw.lead_cast_ids_superset": 8.88,
+  "movies_raw.production_company_ids": 20.95,
+  "movies_raw.genre_ids": 17.64,
+  "movies_raw.production_budget": 89.49,
+  "movies_raw.budget_missing_flag": 0.0,
+  "movies_raw.release_month": 1.89,
+  "movies_raw.vote_count": 0.0,
+  "movies_raw.source": 0.0,
+  "movies_raw.retrieval_date": 0.0,
+  "box_office_raw.film_key": 0.0,
+  "box_office_raw.market_scope": 0.0,
+  "box_office_raw.global_gross": 88.74,
+  "box_office_raw.missing_flag": 0.0,
+  "box_office_raw.source": 0.0,
+  "box_office_raw.retrieval_date": 0.0,
+  "box_office_detailed.film_key": 0.0,
+  "box_office_detailed.imdb_id": 0.0,
+  "box_office_detailed.domestic_gross": 91.11,
+  "box_office_detailed.international_gross": 79.72,
+  "box_office_detailed.opening_weekend_gross": 91.93,
+  "box_office_detailed.theater_count": 100.0,
+  "credits_raw.film_key": 0.0,
+  "credits_raw.person_id": 0.0,
+  "credits_raw.role": 0.0,
+  "credits_raw.billing_order": 6.43,
+  "credits_raw.source": 0.0,
+  "credits_raw.retrieval_date": 0.0,
+  "rt_scores.film_key": 0.0,
+  "rt_scores.critic_score": 83.99,
+  "rt_scores.audience_score": 71.53,
+  "rt_scores.rt_url": 49.46,
+  "rt_scores.rt_status": 0.0,
+  "rt_scores.source": 0.0,
+  "rt_scores.retrieval_date": 0.0
+ },
+ "miss_cnt": {
+  "movies_raw.film_key": 0,
+  "movies_raw.tmdb_id": 0,
+  "movies_raw.imdb_id": 10335,
+  "movies_raw.title": 0,
+  "movies_raw.release_date_ref": 754,
+  "movies_raw.tmdb_collection_id": 30,
+  "movies_raw.director_ids": 4908,
+  "movies_raw.lead_cast_ids_superset": 3542,
+  "movies_raw.production_company_ids": 8353,
+  "movies_raw.genre_ids": 7035,
+  "movies_raw.production_budget": 35679,
+  "movies_raw.budget_missing_flag": 0,
+  "movies_raw.release_month": 754,
+  "movies_raw.vote_count": 0,
+  "movies_raw.source": 0,
+  "movies_raw.retrieval_date": 0,
+  "box_office_raw.film_key": 0,
+  "box_office_raw.market_scope": 0,
+  "box_office_raw.global_gross": 35381,
+  "box_office_raw.missing_flag": 0,
+  "box_office_raw.source": 0,
+  "box_office_raw.retrieval_date": 0,
+  "box_office_detailed.film_key": 0,
+  "box_office_detailed.imdb_id": 0,
+  "box_office_detailed.domestic_gross": 26902,
+  "box_office_detailed.international_gross": 23539,
+  "box_office_detailed.opening_weekend_gross": 27143,
+  "box_office_detailed.theater_count": 29527,
+  "credits_raw.film_key": 0,
+  "credits_raw.person_id": 0,
+  "credits_raw.role": 0,
+  "credits_raw.billing_order": 41116,
+  "credits_raw.source": 0,
+  "credits_raw.retrieval_date": 0,
+  "rt_scores.film_key": 0,
+  "rt_scores.critic_score": 33488,
+  "rt_scores.audience_score": 28520,
+  "rt_scores.rt_url": 19721,
+  "rt_scores.rt_status": 0,
+  "rt_scores.source": 0,
+  "rt_scores.retrieval_date": 0
+ },
+ "const_cols": [
+  [
+   "movies_raw",
+   "source",
+   1
+  ],
+  [
+   "movies_raw",
+   "retrieval_date",
+   1
+  ],
+  [
+   "box_office_raw",
+   "market_scope",
+   1
+  ],
+  [
+   "box_office_raw",
+   "source",
+   1
+  ],
+  [
+   "box_office_raw",
+   "retrieval_date",
+   1
+  ],
+  [
+   "box_office_detailed",
+   "theater_count",
+   0
+  ],
+  [
+   "credits_raw",
+   "source",
+   1
+  ],
+  [
+   "credits_raw",
+   "retrieval_date",
+   1
+  ],
+  [
+   "rt_scores",
+   "source",
+   1
+  ],
+  [
+   "rt_scores",
+   "retrieval_date",
+   1
+  ]
+ ],
+ "cr_dup_fpr_rows_extra": 1021,
+ "cr_dup_fpr_groups": 911,
+ "cr_dup_fpr_roles": {
+  "cast": 1021
+ },
+ "cr_dup_fp_extra": 6265,
+ "cr_dup_billing_extra": 3,
+ "title_dup_rows": 652,
+ "title_unique": 39519,
+ "title_samedate_groups": 1,
+ "imdb_dup_nonnull": 0,
+ "tmdb_dup": 0,
+ "fk_format_ok": true,
+ "same_order": true,
+ "imdb_eq": 29527,
+ "imdb_neq": 0,
+ "presence_patterns": {
+  "(True, True, True, True, True)": 29287,
+  "(True, True, False, True, True)": 9143,
+  "(True, True, False, False, True)": 1201,
+  "(True, True, True, False, True)": 240
+ },
+ "in_all5": 29287,
+ "naive_rows": 641169,
+ "naive_factor": 16.08,
+ "budget_sum_inflation": 57.64,
+ "films_no_credits": 1441,
+ "no_credits_vote_median": 0.0,
+ "credits_per_film": {
+  "count": 38430.0,
+  "mean": 16.65,
+  "std": 16.87,
+  "min": 1.0,
+  "25%": 6.0,
+  "50%": 12.0,
+  "75%": 21.0,
+  "max": 452.0
+ },
+ "credits_per_film_max": 452,
+ "num": {
+  "production_budget": {
+   "Dataset": "movies_raw",
+   "Column": "production_budget",
+   "Count": 4192.0,
+   "Mean": 26198470.60806298,
+   "Median": 5425000.0,
+   "Std": 50026983.67513518,
+   "Min": 1.0,
+   "Q1": 800000.0,
+   "Q3": 25000000.0,
+   "Max": 658800000.0,
+   "IQR": 24200000.0,
+   "P99": 230450000.00000072,
+   "Skewness": 3.4471185786796084,
+   "Kurtosis": 17.37620788156711,
+   "Mean/Median": 4.829211171993176,
+   "P99/Median": 42.47926267281119,
+   "IQR outliers high": 548.0,
+   "IQR outliers low": 0.0,
+   "Extreme high (>3IQR)": 338.0,
+   "IQR outliers high %": 13.07,
+   "Skew(log10)": -1.5404018968459547,
+   "Log-IQR outliers high": 0.0,
+   "Log-IQR outliers low": 290.0,
+   "Values <1000": 225.0,
+   "Values <100": 103.0,
+   "Values <=0": 0.0
+  },
+  "global_gross": {
+   "Dataset": "box_office_raw",
+   "Column": "global_gross",
+   "Count": 4490.0,
+   "Mean": 98591609.98463252,
+   "Median": 15200000.0,
+   "Std": 222979392.72785574,
+   "Min": 1.0,
+   "Q1": 2578414.25,
+   "Q3": 81044984.75,
+   "Max": 2925713609.0,
+   "IQR": 78466570.5,
+   "P99": 1058540902.7399998,
+   "Skewness": 4.635590919210439,
+   "Kurtosis": 31.525027966809514,
+   "Mean/Median": 6.486290130567929,
+   "P99/Median": 69.64084886447367,
+   "IQR outliers high": 607.0,
+   "IQR outliers low": 0.0,
+   "Extreme high (>3IQR)": 416.0,
+   "IQR outliers high %": 13.52,
+   "Skew(log10)": -1.585789257720339,
+   "Log-IQR outliers high": 0.0,
+   "Log-IQR outliers low": 134.0,
+   "Values <1000": 73.0,
+   "Values <100": 47.0,
+   "Values <=0": 0.0
+  },
+  "domestic_gross": {
+   "Dataset": "box_office_detailed",
+   "Column": "domestic_gross",
+   "Count": 2625.0,
+   "Mean": 64160861.23657143,
+   "Median": 24922237.0,
+   "Std": 102741906.32537375,
+   "Min": 120.0,
+   "Q1": 1242995.0,
+   "Q3": 80282231.0,
+   "Max": 958463462.0,
+   "IQR": 79039236.0,
+   "P99": 460069434.03999966,
+   "Skewness": 3.147356842917735,
+   "Kurtosis": 14.082816046248013,
+   "Mean/Median": 2.5744423037374786,
+   "P99/Median": 18.460198177234236,
+   "IQR outliers high": 221.0,
+   "IQR outliers low": 0.0,
+   "Extreme high (>3IQR)": 98.0,
+   "IQR outliers high %": 8.42,
+   "Skew(log10)": -0.9628406853459262,
+   "Log-IQR outliers high": 0.0,
+   "Log-IQR outliers low": 21.0,
+   "Values <1000": 12.0,
+   "Values <100": 0.0,
+   "Values <=0": 0.0
+  },
+  "international_gross": {
+   "Dataset": "box_office_detailed",
+   "Column": "international_gross",
+   "Count": 5988.0,
+   "Mean": 46133862.16466266,
+   "Median": 3807160.5,
+   "Std": 131929145.9669677,
+   "Min": 9.0,
+   "Q1": 499553.25,
+   "Q3": 22516180.0,
+   "Max": 2247392194.0,
+   "IQR": 22016626.75,
+   "P99": 652671757.2800003,
+   "Skewness": 6.042956982848744,
+   "Kurtosis": 56.190147057817136,
+   "Mean/Median": 12.117656233474438,
+   "P99/Median": 171.43268776822,
+   "IQR outliers high": 966.0,
+   "IQR outliers low": 0.0,
+   "Extreme high (>3IQR)": 743.0,
+   "IQR outliers high %": 16.13,
+   "Skew(log10)": -0.6379427545202034,
+   "Log-IQR outliers high": 0.0,
+   "Log-IQR outliers low": 126.0,
+   "Values <1000": 91.0,
+   "Values <100": 20.0,
+   "Values <=0": 0.0
+  },
+  "opening_weekend_gross": {
+   "Dataset": "box_office_detailed",
+   "Column": "opening_weekend_gross",
+   "Count": 2384.0,
+   "Mean": 19479012.221057046,
+   "Median": 7370310.0,
+   "Std": 33007508.894770175,
+   "Min": 270.0,
+   "Q1": 357635.5,
+   "Q3": 23190516.0,
+   "Max": 360091572.0,
+   "IQR": 22832880.5,
+   "P99": 158131609.49000004,
+   "Skewness": 3.565399426539555,
+   "Kurtosis": 18.811998748212943,
+   "Mean/Median": 2.642902703014805,
+   "P99/Median": 21.4552182323403,
+   "IQR outliers high": 211.0,
+   "IQR outliers low": 0.0,
+   "Extreme high (>3IQR)": 97.0,
+   "IQR outliers high %": 8.85,
+   "Skew(log10)": -0.8689363355510167,
+   "Log-IQR outliers high": 0.0,
+   "Log-IQR outliers low": 5.0,
+   "Values <1000": 14.0,
+   "Values <100": 0.0,
+   "Values <=0": 0.0
+  },
+  "critic_score": {
+   "Dataset": "rt_scores",
+   "Column": "critic_score",
+   "Count": 6383.0,
+   "Mean": 63.20413598621338,
+   "Median": 69.0,
+   "Std": 29.41037357415814,
+   "Min": 0.0,
+   "Q1": 40.0,
+   "Q3": 89.0,
+   "Max": 100.0,
+   "IQR": 49.0,
+   "P99": 100.0,
+   "Skewness": -0.4626466176022547,
+   "Kurtosis": -0.9921948663675142,
+   "Mean/Median": 0.9160019708146867,
+   "P99/Median": 1.4492753623188406,
+   "IQR outliers high": 0.0,
+   "IQR outliers low": 0.0,
+   "Extreme high (>3IQR)": 0.0,
+   "IQR outliers high %": 0.0
+  },
+  "audience_score": {
+   "Dataset": "rt_scores",
+   "Column": "audience_score",
+   "Count": 11351.0,
+   "Mean": 59.39326931547881,
+   "Median": 61.0,
+   "Std": 24.58123356710722,
+   "Min": 0.0,
+   "Q1": 40.0,
+   "Q3": 80.0,
+   "Max": 100.0,
+   "IQR": 40.0,
+   "P99": 99.0,
+   "Skewness": -0.25442296228301753,
+   "Kurtosis": -0.9023821029869326,
+   "Mean/Median": 0.9736601527127674,
+   "P99/Median": 1.6229508196721312,
+   "IQR outliers high": 0.0,
+   "IQR outliers low": 0.0,
+   "Extreme high (>3IQR)": 0.0,
+   "IQR outliers high %": 0.0
+  },
+  "vote_count": {
+   "Dataset": "movies_raw",
+   "Column": "vote_count",
+   "Count": 39871.0,
+   "Mean": 252.55315893757367,
+   "Median": 3.0,
+   "Std": 1533.1431345958065,
+   "Min": 0.0,
+   "Q1": 0.0,
+   "Q3": 20.0,
+   "Max": 39940.0,
+   "IQR": 20.0,
+   "P99": 6913.8000000000175,
+   "Skewness": 10.87330955511408,
+   "Kurtosis": 150.0016644427205,
+   "Mean/Median": 84.18438631252455,
+   "P99/Median": 2304.600000000006,
+   "IQR outliers high": 6695.0,
+   "IQR outliers low": 0.0,
+   "Extreme high (>3IQR)": 5447.0,
+   "IQR outliers high %": 16.79
+  },
+  "release_month": {
+   "Dataset": "movies_raw",
+   "Column": "release_month",
+   "Count": 39117.0,
+   "Mean": 6.447887107907048,
+   "Median": 7.0,
+   "Std": 3.6912525765851285,
+   "Min": 1.0,
+   "Q1": 3.0,
+   "Q3": 10.0,
+   "Max": 12.0,
+   "IQR": 7.0,
+   "P99": 12.0,
+   "Skewness": -0.026174168725204925,
+   "Kurtosis": -1.3239961233004969,
+   "Mean/Median": 0.921126729701007,
+   "P99/Median": 1.7142857142857142,
+   "IQR outliers high": 0.0,
+   "IQR outliers low": 0.0,
+   "Extreme high (>3IQR)": 0.0,
+   "IQR outliers high %": 0.0
+  },
+  "billing_order": {
+   "Dataset": "credits_raw",
+   "Column": "billing_order",
+   "Count": 598612.0,
+   "Mean": 16.326254735955846,
+   "Median": 10.0,
+   "Std": 21.847204956861074,
+   "Min": 0.0,
+   "Q1": 4.0,
+   "Q3": 21.0,
+   "Max": 450.0,
+   "IQR": 17.0,
+   "P99": 95.0,
+   "Skewness": 5.183432200884232,
+   "Kurtosis": 52.73302953409893,
+   "Mean/Median": 1.6326254735955845,
+   "P99/Median": 9.5,
+   "IQR outliers high": 39921.0,
+   "IQR outliers low": 0.0,
+   "Extreme high (>3IQR)": 13060.0,
+   "IQR outliers high %": 6.67
+  }
+ },
+ "placeholder": {
+  "production_budget": {
+   "n": 4192,
+   "lt1000": 225,
+   "lt100": 103,
+   "lt10": 24,
+   "mult_1e6": 52.0,
+   "mult_1e5": 72.2,
+   "top_values": {
+    "10000000": 105,
+    "5000000": 100,
+    "3000000": 96,
+    "2000000": 84,
+    "20000000": 83
+   }
+  },
+  "global_gross": {
+   "n": 4490,
+   "lt1000": 73,
+   "lt100": 47,
+   "lt10": 21,
+   "mult_1e6": 6.4,
+   "mult_1e5": 17.3,
+   "top_values": {
+    "10000000": 14,
+    "12000000": 14,
+    "2000000": 12,
+    "20000000": 11,
+    "4000000": 11
+   }
+  },
+  "domestic_gross": {
+   "n": 2625,
+   "lt1000": 12,
+   "lt100": 0,
+   "lt10": 0,
+   "mult_1e6": 0.5,
+   "mult_1e5": 1.2,
+   "top_values": {
+    "509": 5,
+    "8262": 3,
+    "134241": 3,
+    "1605": 3,
+    "748555": 2
+   }
+  },
+  "international_gross": {
+   "n": 5988,
+   "lt1000": 91,
+   "lt100": 20,
+   "lt10": 2,
+   "mult_1e6": 1.0,
+   "mult_1e5": 4.2,
+   "top_values": {
+    "291": 4,
+    "71000000": 3,
+    "53000000": 3,
+    "40000000": 2,
+    "140000000": 2
+   }
+  },
+  "opening_weekend_gross": {
+   "n": 2384,
+   "lt1000": 14,
+   "lt100": 0,
+   "lt10": 0,
+   "mult_1e6": 0.1,
+   "mult_1e5": 1.4,
+   "top_values": {
+    "11206": 4,
+    "1200000": 3,
+    "7720": 3,
+    "600000": 3,
+    "16064": 2
+   }
+  }
+ },
+ "lowbud_with_gross": {
+  "n_lowbud": 225,
+  "n_with_gross": 48,
+  "median_gross": 50.0,
+  "share_gross_ge_1e6": 4.2,
+  "median_vote": 1.0,
+  "n_ge_100_votes": 9
+ },
+ "lowgross_with_budget": {
+  "n_lowgross": 73,
+  "n_with_budget": 50,
+  "median_budget": 40.0,
+  "median_vote": 2.0
+ },
+ "ratio": {
+  "n": 2844,
+  "gross_lt_budget": 467,
+  "gt100": 43,
+  "lt_0_001": 10,
+  "median": 3.1690340195205224
+ },
+ "critic_score_edges": {
+  "n": 6383,
+  "zero": 127,
+  "hundred": 729,
+  "hundred_pct": 11.42,
+  "mult10_pct": 25.3,
+  "mult5_pct": 33.9
+ },
+ "audience_score_edges": {
+  "n": 11351,
+  "zero": 73,
+  "hundred": 80,
+  "hundred_pct": 0.7,
+  "mult10_pct": 13.4,
+  "mult5_pct": 22.8
+ },
+ "critic_edge_vote_median": 1.0,
+ "critic_mid_vote_median": 118.0,
+ "future_with_fin": {
+  "n_future": 200,
+  "with_budget": 19,
+  "with_global": 0,
+  "with_critic": 23
+ },
+ "cat": [
+  {
+   "Column": "genre_ids",
+   "Non-null cells": 32836,
+   "Tokens/cell mean": 2.0821963698379826,
+   "Tokens/cell max": 10,
+   "Unique tokens": 19,
+   "Unique cell strings": 3833,
+   "Unique as sets": 1573,
+   "Cells not numerically sorted %": 38.4,
+   "Top-1 token share %": 14.79,
+   "Top-10 token share %": 76.65,
+   "Tokens appearing once": 0,
+   "Top token": "35"
+  },
+  {
+   "Column": "director_ids",
+   "Non-null cells": 34963,
+   "Tokens/cell mean": 1.175986042387667,
+   "Tokens/cell max": 35,
+   "Unique tokens": 14590,
+   "Unique cell strings": 13002,
+   "Unique as sets": 12741,
+   "Cells not numerically sorted %": 5.2,
+   "Top-1 token share %": 0.27,
+   "Top-10 token share %": 2.08,
+   "Tokens appearing once": 6911,
+   "Top token": "554487"
+  },
+  {
+   "Column": "lead_cast_ids_superset",
+   "Non-null cells": 36329,
+   "Tokens/cell mean": 12.023589969445897,
+   "Tokens/cell max": 20,
+   "Unique tokens": 183357,
+   "Unique cell strings": 34535,
+   "Unique as sets": 34291,
+   "Cells not numerically sorted %": 90.1,
+   "Top-1 token share %": 0.06,
+   "Top-10 token share %": 0.47,
+   "Tokens appearing once": 113425,
+   "Top token": "135645"
+  },
+  {
+   "Column": "production_company_ids",
+   "Non-null cells": 31518,
+   "Tokens/cell mean": 1.853353639190304,
+   "Tokens/cell max": 42,
+   "Unique tokens": 14288,
+   "Unique cell strings": 14348,
+   "Unique as sets": 13531,
+   "Cells not numerically sorted %": 24.9,
+   "Top-1 token share %": 1.35,
+   "Top-10 token share %": 6.19,
+   "Tokens appearing once": 7072,
+   "Top token": "5822"
+  }
+ ],
+ "genre_tokens": {
+  "12": 4033,
+  "28": 6481,
+  "878": 2668,
+  "14": 2750,
+  "18": 7775,
+  "35": 10114,
+  "9648": 2069,
+  "10749": 2882,
+  "53": 3433,
+  "80": 4087,
+  "10751": 3814,
+  "36": 843,
+  "16": 4291,
+  "27": 5495,
+  "37": 729,
+  "10770": 2384,
+  "10752": 546,
+  "10402": 1352,
+  "99": 2625
+ },
+ "genre_unknown": [],
+ "collection": {
+  "n_groups": 9728,
+  "singletons": 10,
+  "median": 3.0,
+  "mean": 4.1,
+  "max": 148,
+  "films_with": 39841,
+  "share_films_in_groups_ge2": 100.0,
+  "top5": {
+   "1775086": 148,
+   "947325": 120,
+   "383032": 115,
+   "1260894": 98,
+   "1086824": 89
+  }
+ },
+ "rt_status": {
+  "UNMATCHED": 19719,
+  "MATCHED": 11521,
+  "MATCHED_NO_SCORES": 8629,
+  "SEARCH_ONLY": 2
+ },
+ "role_counts": {
+  "cast": 598612,
+  "director": 41116
+ },
+ "credits_dir": {
+  "films": 34963,
+  "max": 35,
+  "mean": 1.18
+ },
+ "credits_cast": {
+  "films": 36329,
+  "max": 451,
+  "median": 12.0
+ },
+ "no_dir_films": 3467,
+ "no_cast_films": 2101,
+ "dir_consistency": {
+  "movies_nonnull": 34963,
+  "credits_films": 34963,
+  "both": 34963,
+  "equal_sets": 34963,
+  "movies_null_credits_has": 0,
+  "movies_has_credits_none": 0
+ },
+ "lead_vs_cast": {
+  "max_lead": 20,
+  "corr": 0.712,
+  "lead_gt_cast": 0
+ },
+ "title_nonascii_pct": 8.74,
+ "genre_cov": [
+  {
+   "g": 12,
+   "n": 4033,
+   "budget": 24.2,
+   "gross": 31.0,
+   "critic": 25.3,
+   "name": "Adventure"
+  },
+  {
+   "g": 14,
+   "n": 2750,
+   "budget": 20.5,
+   "gross": 27.2,
+   "critic": 21.2,
+   "name": "Fantasy"
+  },
+  {
+   "g": 16,
+   "n": 4291,
+   "budget": 9.3,
+   "gross": 19.2,
+   "critic": 14.1,
+   "name": "Animation"
+  },
+  {
+   "g": 18,
+   "n": 7775,
+   "budget": 12.1,
+   "gross": 13.6,
+   "critic": 16.3,
+   "name": "Drama"
+  },
+  {
+   "g": 27,
+   "n": 5495,
+   "budget": 19.2,
+   "gross": 13.5,
+   "critic": 20.6,
+   "name": "Horror"
+  },
+  {
+   "g": 28,
+   "n": 6481,
+   "budget": 20.8,
+   "gross": 23.5,
+   "critic": 21.9,
+   "name": "Action"
+  },
+  {
+   "g": 35,
+   "n": 10114,
+   "budget": 15.3,
+   "gross": 17.9,
+   "critic": 17.5,
+   "name": "Comedy"
+  },
+  {
+   "g": 36,
+   "n": 843,
+   "budget": 9.4,
+   "gross": 11.4,
+   "critic": 12.9,
+   "name": "History"
+  },
+  {
+   "g": 37,
+   "n": 729,
+   "budget": 6.6,
+   "gross": 6.2,
+   "critic": 7.8,
+   "name": "Western"
+  },
+  {
+   "g": 53,
+   "n": 3433,
+   "budget": 26.8,
+   "gross": 24.6,
+   "critic": 29.5,
+   "name": "Thriller"
+  },
+  {
+   "g": 80,
+   "n": 4087,
+   "budget": 13.9,
+   "gross": 14.7,
+   "critic": 17.2,
+   "name": "Crime"
+  },
+  {
+   "g": 99,
+   "n": 2625,
+   "budget": 3.8,
+   "gross": 2.5,
+   "critic": 14.2,
+   "name": "Documentary"
+  },
+  {
+   "g": 878,
+   "n": 2668,
+   "budget": 24.7,
+   "gross": 26.2,
+   "critic": 26.0,
+   "name": "Science Fiction"
+  },
+  {
+   "g": 9648,
+   "n": 2069,
+   "budget": 13.6,
+   "gross": 17.2,
+   "critic": 16.4,
+   "name": "Mystery"
+  },
+  {
+   "g": 10402,
+   "n": 1352,
+   "budget": 7.5,
+   "gross": 8.1,
+   "critic": 22.5,
+   "name": "Music"
+  },
+  {
+   "g": 10749,
+   "n": 2882,
+   "budget": 11.4,
+   "gross": 15.0,
+   "critic": 17.9,
+   "name": "Romance"
+  },
+  {
+   "g": 10751,
+   "n": 3814,
+   "budget": 17.3,
+   "gross": 23.3,
+   "critic": 19.3,
+   "name": "Family"
+  },
+  {
+   "g": 10752,
+   "n": 546,
+   "budget": 16.1,
+   "gross": 17.6,
+   "critic": 15.9,
+   "name": "War"
+  },
+  {
+   "g": 10770,
+   "n": 2384,
+   "budget": 2.9,
+   "gross": 0.7,
+   "critic": 7.7,
+   "name": "TV Movie"
+  }
+ ],
+ "date": {
+  "missing": 754,
+  "parse_fail": 0,
+  "min": "1897-03-07",
+  "max": "2031-12-17",
+  "after_retrieval": 200,
+  "year_ge_2027": 124,
+  "pre1980": 6400,
+  "pre1980_pct_dated": 16.36,
+  "pre1980_pct_all": 16.05,
+  "jan1": 2447,
+  "jan1_pct_dated": 6.26,
+  "expected_pct": 0.27,
+  "month_mismatch": 0,
+  "format_len": {
+   "10": 39117
+  },
+  "median_year": 2009.0,
+  "films_2025_2026": 1702
+ },
+ "decade_cov": [
+  {
+   "decade": 1890,
+   "n": 28,
+   "budget": 0.0,
+   "global_gross": 0.0,
+   "critic": 0.0,
+   "audience": 0.0,
+   "detail": 0.0
+  },
+  {
+   "decade": 1900,
+   "n": 13,
+   "budget": 0.0,
+   "global_gross": 0.0,
+   "critic": 0.0,
+   "audience": 0.0,
+   "detail": 0.0
+  },
+  {
+   "decade": 1910,
+   "n": 313,
+   "budget": 0.6,
+   "global_gross": 0.3,
+   "critic": 1.9,
+   "audience": 2.9,
+   "detail": 0.0
+  },
+  {
+   "decade": 1920,
+   "n": 266,
+   "budget": 2.6,
+   "global_gross": 2.6,
+   "critic": 5.3,
+   "audience": 7.5,
+   "detail": 0.0
+  },
+  {
+   "decade": 1930,
+   "n": 487,
+   "budget": 5.1,
+   "global_gross": 3.7,
+   "critic": 8.2,
+   "audience": 30.0,
+   "detail": 2.5
+  },
+  {
+   "decade": 1940,
+   "n": 966,
+   "budget": 3.9,
+   "global_gross": 3.2,
+   "critic": 5.7,
+   "audience": 23.4,
+   "detail": 0.9
+  },
+  {
+   "decade": 1950,
+   "n": 831,
+   "budget": 3.5,
+   "global_gross": 3.5,
+   "critic": 8.7,
+   "audience": 18.5,
+   "detail": 3.0
+  },
+  {
+   "decade": 1960,
+   "n": 1494,
+   "budget": 4.9,
+   "global_gross": 5.8,
+   "critic": 9.1,
+   "audience": 20.0,
+   "detail": 3.6
+  },
+  {
+   "decade": 1970,
+   "n": 2002,
+   "budget": 8.7,
+   "global_gross": 8.0,
+   "critic": 11.8,
+   "audience": 24.7,
+   "detail": 5.4
+  },
+  {
+   "decade": 1980,
+   "n": 2666,
+   "budget": 12.8,
+   "global_gross": 14.0,
+   "critic": 15.8,
+   "audience": 27.6,
+   "detail": 12.9
+  },
+  {
+   "decade": 1990,
+   "n": 4084,
+   "budget": 11.0,
+   "global_gross": 11.9,
+   "critic": 14.1,
+   "audience": 30.1,
+   "detail": 10.8
+  },
+  {
+   "decade": 2000,
+   "n": 7174,
+   "budget": 13.0,
+   "global_gross": 12.5,
+   "critic": 16.0,
+   "audience": 31.7,
+   "detail": 19.9
+  },
+  {
+   "decade": 2010,
+   "n": 11032,
+   "budget": 12.0,
+   "global_gross": 13.7,
+   "critic": 17.2,
+   "audience": 31.7,
+   "detail": 24.0
+  },
+  {
+   "decade": 2020,
+   "n": 7759,
+   "budget": 9.8,
+   "global_gross": 11.3,
+   "critic": 18.1,
+   "audience": 22.9,
+   "detail": 20.1
+  },
+  {
+   "decade": 2030,
+   "n": 2,
+   "budget": 0.0,
+   "global_gross": 0.0,
+   "critic": 0.0,
+   "audience": 0.0,
+   "detail": 0.0
+  }
+ ],
+ "jan1_by_decade": {
+  "1910": 29,
+  "1920": 22,
+  "1930": 26,
+  "1940": 21,
+  "1950": 37,
+  "1960": 126,
+  "1970": 217,
+  "1980": 386,
+  "1990": 639,
+  "2000": 576,
+  "2010": 249,
+  "2020": 119
+ },
+ "missing_vs_votes": [
+  {
+   "Variable": "production_budget",
+   "n có dữ liệu": 4192,
+   "Median vote (có)": 324.0,
+   "Median vote (thiếu)": 2.0,
+   "Rank-biserial": 0.749,
+   "Mann-Whitney p": 0.0,
+   "Cramér V (vote group x có/thiếu)": 0.626
+  },
+  {
+   "Variable": "global_gross",
+   "n có dữ liệu": 4490,
+   "Median vote (có)": 303.0,
+   "Median vote (thiếu)": 2.0,
+   "Rank-biserial": 0.833,
+   "Mann-Whitney p": 0.0,
+   "Cramér V (vote group x có/thiếu)": 0.65
+  },
+  {
+   "Variable": "critic_score",
+   "n có dữ liệu": 6383,
+   "Median vote (có)": 67.0,
+   "Median vote (thiếu)": 2.0,
+   "Rank-biserial": 0.35,
+   "Mann-Whitney p": 0.0,
+   "Cramér V (vote group x có/thiếu)": 0.518
+  },
+  {
+   "Variable": "audience_score",
+   "n có dữ liệu": 11351,
+   "Median vote (có)": 37.0,
+   "Median vote (thiếu)": 2.0,
+   "Rank-biserial": 0.497,
+   "Mann-Whitney p": 0.0,
+   "Cramér V (vote group x có/thiếu)": 0.521
+  },
+  {
+   "Variable": "domestic_gross",
+   "n có dữ liệu": 2625,
+   "Median vote (có)": 1201.0,
+   "Median vote (thiếu)": 2.0,
+   "Rank-biserial": 0.931,
+   "Mann-Whitney p": 0.0,
+   "Cramér V (vote group x có/thiếu)": 0.715
+  },
+  {
+   "Variable": "international_gross",
+   "n có dữ liệu": 5988,
+   "Median vote (có)": 78.0,
+   "Median vote (thiếu)": 2.0,
+   "Rank-biserial": 0.709,
+   "Mann-Whitney p": 0.0,
+   "Cramér V (vote group x có/thiếu)": 0.527
+  }
+ ],
+ "coverage_by_vote": [
+  {
+   "vgroup": "0",
+   "n": 11210,
+   "share %": 28.1,
+   "production_budget": 1.9,
+   "global_gross": 0.7,
+   "domestic_gross": 0.0,
+   "international_gross": 1.4,
+   "opening_weekend_gross": 0.0,
+   "critic_score": 14.6,
+   "audience_score": 18.6
+  },
+  {
+   "vgroup": "1-9",
+   "n": 15061,
+   "share %": 37.8,
+   "production_budget": 2.8,
+   "global_gross": 2.3,
+   "domestic_gross": 0.3,
+   "international_gross": 6.7,
+   "opening_weekend_gross": 0.3,
+   "critic_score": 6.7,
+   "audience_score": 11.7
+  },
+  {
+   "vgroup": "10-99",
+   "n": 8668,
+   "share %": 21.7,
+   "production_budget": 9.7,
+   "global_gross": 12.4,
+   "domestic_gross": 3.8,
+   "international_gross": 23.4,
+   "opening_weekend_gross": 3.2,
+   "critic_score": 8.4,
+   "audience_score": 38.4
+  },
+  {
+   "vgroup": "100-999",
+   "n": 3290,
+   "share %": 8.3,
+   "production_budget": 37.1,
+   "global_gross": 45.5,
+   "domestic_gross": 25.8,
+   "international_gross": 42.8,
+   "opening_weekend_gross": 22.5,
+   "critic_score": 45.0,
+   "audience_score": 78.2
+  },
+  {
+   "vgroup": "1000+",
+   "n": 1642,
+   "share %": 4.1,
+   "production_budget": 91.0,
+   "global_gross": 91.2,
+   "domestic_gross": 85.3,
+   "international_gross": 84.2,
+   "opening_weekend_gross": 81.0,
+   "critic_score": 93.1,
+   "audience_score": 97.0
+  }
+ ],
+ "completeness": {
+  "0": 24790,
+  "1": 6019,
+  "2": 4767,
+  "3": 1235,
+  "4": 610,
+  "5": 467,
+  "6": 501,
+  "7": 1482
+ },
+ "budget_and_gross": 2844,
+ "all4": 2154,
+ "budget_only": 1348,
+ "gross_only": 1646,
+ "bd_empty": 22906,
+ "bd_rows": 29527,
+ "bd_patterns": {
+  "(False, False, False)": 22906,
+  "(False, True, False)": 3996,
+  "(True, True, True)": 1860,
+  "(True, False, True)": 524,
+  "(True, True, False)": 132,
+  "(True, False, False)": 109
+ },
+ "rev_overlap": {
+  "both": 3839,
+  "global_only": 651,
+  "detail_only": 2782,
+  "neither": 32599,
+  "detail_only_in_bd_rows": 2782
+ },
+ "intl_only_no_dom": 3996,
+ "rt_cross": {
+  "MATCHED": {
+   "-+aud": 5140,
+   "critic+-": 170,
+   "critic+aud": 6211
+  },
+  "MATCHED_NO_SCORES": {
+   "-+-": 8629
+  },
+  "SEARCH_ONLY": {
+   "critic+-": 2
+  },
+  "UNMATCHED": {
+   "-+-": 19719
+  }
+ },
+ "rt_url_missing_equals_unmatched_or_search": 19721,
+ "imdb_missing_by_vote": {
+  "0": 66.2,
+  "1-9": 18.8,
+  "10-99": 0.9,
+  "100-999": 0.2,
+  "1000+": 0.0
+ },
+ "corr": {
+  "production_budget|global_gross": {
+   "n": 2844.0,
+   "Pearson": 0.7809135717487753,
+   "Spearman": 0.8068513207556263,
+   "Pearson(log10)": 0.8237464560419878
+  },
+  "production_budget|domestic_gross": {
+   "n": 2044.0,
+   "Pearson": 0.7036584190682367,
+   "Spearman": 0.6935739146417617,
+   "Pearson(log10)": 0.5960914601141931
+  },
+  "production_budget|international_gross": {
+   "n": 2356.0,
+   "Pearson": 0.7504552821176923,
+   "Spearman": 0.7780488782914396,
+   "Pearson(log10)": 0.6131789936219588
+  },
+  "production_budget|opening_weekend_gross": {
+   "n": 1916.0,
+   "Pearson": 0.7387963786441775,
+   "Spearman": 0.7523387813658019,
+   "Pearson(log10)": 0.66015424233703
+  },
+  "domestic_gross|international_gross": {
+   "n": 1992.0,
+   "Pearson": 0.8064743334151857,
+   "Spearman": 0.7312713509309581,
+   "Pearson(log10)": 0.5033285621507659
+  },
+  "domestic_gross|opening_weekend_gross": {
+   "n": 2384.0,
+   "Pearson": 0.9155683992449389,
+   "Spearman": 0.9397595346006488,
+   "Pearson(log10)": 0.9445235581686092
+  },
+  "opening_weekend_gross|global_gross": {
+   "n": 2155.0,
+   "Pearson": 0.8632312284063888,
+   "Spearman": 0.8388429567091885,
+   "Pearson(log10)": 0.7613316147552686
+  },
+  "international_gross|global_gross": {
+   "n": 3341.0,
+   "Pearson": 0.9745488163895365,
+   "Spearman": 0.8512740959887423,
+   "Pearson(log10)": 0.7002320126944546
+  },
+  "domestic_gross|global_gross": {
+   "n": 2344.0,
+   "Pearson": 0.9191873769462846,
+   "Spearman": 0.8801083506742176,
+   "Pearson(log10)": 0.7896924137956506
+  },
+  "critic_score|audience_score": {
+   "n": 6211.0,
+   "Pearson": 0.7180123475493851,
+   "Spearman": 0.7277347822403926,
+   "Pearson(log10)": 0.7180123475493851
+  },
+  "critic_score|global_gross": {
+   "n": 2531.0,
+   "Pearson": 0.1807965039367615,
+   "Spearman": 0.09273126638629064,
+   "Pearson(log10)": 0.04997323878148374
+  },
+  "audience_score|global_gross": {
+   "n": 3243.0,
+   "Pearson": 0.23569570703571954,
+   "Spearman": 0.17887231576300386,
+   "Pearson(log10)": 0.16253193474512526
+  },
+  "critic_score|production_budget": {
+   "n": 2465.0,
+   "Pearson": 0.07547548589566862,
+   "Spearman": -0.05170276304527455,
+   "Pearson(log10)": -0.08272511528411261
+  },
+  "audience_score|production_budget": {
+   "n": 3136.0,
+   "Pearson": 0.2213675622475691,
+   "Spearman": 0.17368253120514973,
+   "Pearson(log10)": 0.1334801658749976
+  },
+  "critic_score|opening_weekend_gross": {
+   "n": 2077.0,
+   "Pearson": 0.1621045141679626,
+   "Spearman": 0.001705573958436398,
+   "Pearson(log10)": -0.10149746710523233
+  },
+  "vote_count|global_gross": {
+   "n": 4490.0,
+   "Pearson": 0.7595950402749252,
+   "Spearman": 0.7400800797881331,
+   "Pearson(log10)": 0.6595805650805434
+  },
+  "vote_count|production_budget": {
+   "n": 4192.0,
+   "Pearson": 0.6424222471459947,
+   "Spearman": 0.757220249753885,
+   "Pearson(log10)": 0.734899192669503
+  },
+  "vote_count|critic_score": {
+   "n": 6383.0,
+   "Pearson": 0.0529052312654989,
+   "Spearman": -0.1800651875243971,
+   "Pearson(log10)": -0.15511849510942674
+  }
+ },
+ "vif": {
+  "production_budget": 2.07,
+  "domestic_gross": 7.3,
+  "international_gross": 1.65,
+  "opening_weekend_gross": 7.62,
+  "critic_score": 2.03,
+  "audience_score": 1.98
+ },
+ "vif_n": 1496,
+ "era_corr": [
+  {
+   "era": "<1980",
+   "n": 241.0,
+   "spearman": 0.61
+  },
+  {
+   "era": "1980-99",
+   "n": 627.0,
+   "spearman": 0.72
+  },
+  {
+   "era": "2000-09",
+   "n": 664.0,
+   "spearman": 0.83
+  },
+  {
+   "era": "2010-19",
+   "n": 869.0,
+   "spearman": 0.87
+  },
+  {
+   "era": "2020+",
+   "n": 427.0,
+   "spearman": 0.83
+  }
+ ],
+ "corr_after_lowdrop": {
+  "n": 2787,
+  "pearson_log": 0.7365452156494705,
+  "spearman": 0.795917663770156
+ },
+ "corr_votes_ge100": {
+  "n": 2329,
+  "spearman": 0.7739547205460368
+ },
+ "critic_bin_median_gross": {
+  "(-1, 20]": 23500000.0,
+  "(20, 40]": 58795814.0,
+  "(40, 60]": 59217789.0,
+  "(60, 80]": 67455874.0,
+  "(80, 100]": 58617347.5
+ },
+ "consistency": {
+  "intl_gt_global_1pct": 348,
+  "n_intl_global": 3341,
+  "dom_gt_global_1pct": 51,
+  "n_dom_global": 2344,
+  "sum_dev_gt_1pct": 464,
+  "n_all3": 1846,
+  "sum_within_1pct": 1382,
+  "median_abs_dev": 1.4296056004312391e-06,
+  "sum_below_global_gt1pct": 219,
+  "sum_above_global_gt1pct": 245,
+  "open_gt_dom": 10,
+  "n_open_dom": 2384,
+  "exact_equal": 886
+ },
+ "plots": [
+  "plots/missing_values/mv_01_missing_ranking_all_columns.png",
+  "plots/missing_values/mv_02_missingness_heatmap_films.png",
+  "plots/missing_values/mv_03_film_completeness.png",
+  "plots/missing_values/mv_04_upset_data_presence.png",
+  "plots/missing_values/mv_05_rt_status_vs_scores.png",
+  "plots/missing_values/mv_06_missingness_vs_popularity.png",
+  "plots/missing_values/mv_07_coverage_by_genre.png",
+  "plots/numerical_distributions/num_01_ecdf_money.png",
+  "plots/numerical_distributions/num_02_mean_median_skew.png",
+  "plots/numerical_distributions/num_03_kde_log_money.png",
+  "plots/numerical_distributions/num_04_score_heaping.png",
+  "plots/numerical_distributions/num_05_vote_count_concentration.png",
+  "plots/outliers/out_01_low_values_and_rounding.png",
+  "plots/outliers/out_02_gross_budget_ratio.png",
+  "plots/outliers/out_03_iqr_outliers_raw_vs_log.png",
+  "plots/outliers/out_04_score_extremes_vs_votes.png",
+  "plots/categorical/cat_01_genre_frequency.png",
+  "plots/categorical/cat_02_multivalue_cells.png",
+  "plots/categorical/cat_03_concentration.png",
+  "plots/categorical/cat_04_collection_sizes.png",
+  "plots/categorical/cat_05_genre_combinations.png",
+  "plots/categorical/cat_06_credits_roles.png",
+  "plots/dates/date_01_films_per_year.png",
+  "plots/dates/date_02_coverage_by_decade.png",
+  "plots/dates/date_03_jan1_heaping_and_month.png",
+  "plots/dates/date_04_nominal_median_trend.png",
+  "plots/correlations/cor_01_budget_vs_global_gross.png",
+  "plots/correlations/cor_02_gross_family_scatter.png",
+  "plots/correlations/cor_03_critic_vs_audience.png",
+  "plots/correlations/cor_04_scores_vs_gross_binned.png",
+  "plots/correlations/cor_05_pearson_spearman_log.png",
+  "plots/correlations/cor_06_stability_checks.png",
+  "plots/correlations/cor_07_spearman_matrix_with_n.png",
+  "plots/cross_dataset/xd_01_rows_vs_unique_keys.png",
+  "plots/cross_dataset/xd_02_informative_overlap_matrix.png",
+  "plots/cross_dataset/xd_03_upset_key_membership.png",
+  "plots/cross_dataset/xd_04_raw_vs_detailed_revenue.png",
+  "plots/cross_dataset/xd_05_revenue_consistency.png",
+  "plots/cross_dataset/xd_06_merge_row_explosion.png",
+  "plots/cross_dataset/xd_07_table_relationship_diagram.png",
+  "plots/cross_dataset/xd_08_upset_informative_sources.png"
+ ]
+}

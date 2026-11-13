@@ -1,0 +1,244 @@
+{
+ "pairs_audit_rows": 30113,
+ "pairs_valid_ids_unique": true,
+ "films_master_key_unique": true,
+ "exclusion_reasons_S1": {
+  "tied_release_date": 2239,
+  "collection_has_undated_film": 912,
+  "missing_release_date;collection_has_undated_film": 713,
+  "unreleased_film": 176,
+  "tied_release_date;collection_has_undated_film": 95,
+  "collection_has_undated_film;unreleased_film": 13,
+  "missing_release_date;collection_has_undated_film;unreleased_film": 13,
+  "missing_release_date;tied_release_date;collection_has_undated_film": 5,
+  "tied_release_date;unreleased_film": 4
+ },
+ "exclusion_reasons_S2": {
+  "opening_missing_N-1;opening_missing_N": 24209,
+  "opening_missing_N": 574,
+  "opening_missing_N-1": 242
+ },
+ "sample_ids_equal_split": true,
+ "transition_id_equals_prev__curr": true,
+ "Y_recompute_max_abs_diff": 1.7763568394002505e-15,
+ "openings_positive_finite": true,
+ "chain_pos_diff_all_1": true,
+ "release_order_ok": true,
+ "gap_years_recompute_days_over_365.25_max_diff": 7.105427357601002e-15,
+ "gap_min_days": 27,
+ "film_reuse_as_curr_dup": 0,
+ "franchise_prev_curr_same": true,
+ "open_prev_equals_master": true,
+ "open_curr_equals_master": true,
+ "release_date_curr_equals_master": true,
+ "chain_pos_equals_independent_rank_by_date": true,
+ "theater_count_nonmissing_prev_curr": [
+  0,
+  0
+ ],
+ "quality_flags_in_sample": {
+  "opening_low_warning_prev": 1,
+  "opening_low_warning_curr": 5,
+  "opening_inconsistent": 4
+ },
+ "comparability_status_values": {
+  "ASSUMED_NOT_VERIFIED": 918
+ },
+ "min_open_prev": 576.0,
+ "min_open_curr": 270.0,
+ "split_rows": 918,
+ "split_unique_ids": true,
+ "role_counts": {
+  "dev": 725,
+  "test_cuoi": 193
+ },
+ "fold_counts": {
+  "0": 193,
+  "1": 178,
+  "2": 185,
+  "3": 176,
+  "4": 186
+ },
+ "one_role_per_franchise": 1,
+ "one_fold_per_franchise": 1,
+ "dev_test_franchise_overlap": 0,
+ "test_fold_is_0": true,
+ "mau_chinh_equals_open_prev_ge_1M": true,
+ "role_x_stratum": [
+  {
+   "role": "dev",
+   "mau_chinh": false,
+   "n": 149,
+   "n_franchise": 120
+  },
+  {
+   "role": "dev",
+   "mau_chinh": true,
+   "n": 576,
+   "n_franchise": 342
+  },
+  {
+   "role": "test_cuoi",
+   "mau_chinh": false,
+   "n": 38,
+   "n_franchise": 29
+  },
+  {
+   "role": "test_cuoi",
+   "mau_chinh": true,
+   "n": 155,
+   "n_franchise": 87
+  }
+ ],
+ "dev_franchises": 449,
+ "test_franchises": 113,
+ "dev_stratum_overlap_franchises": 13,
+ "fold_x_stratum": {
+  "False": {
+   "1": 35,
+   "2": 40,
+   "3": 44,
+   "4": 30
+  },
+  "True": {
+   "1": 143,
+   "2": 145,
+   "3": 132,
+   "4": 156
+  }
+ },
+ "transitions_per_franchise_dev": {
+  "1": 297,
+  "2": 97,
+  "3": 26,
+  "4": 17,
+  "5": 4,
+  "6": 1,
+  "7": 1,
+  "8": 1,
+  "9": 3,
+  "10": 2
+ },
+ "feature_core_missing_918": {
+  "log_open_prev": 0,
+  "gap_years": 0,
+  "franchise_position_n": 0,
+  "release_month_n": 0,
+  "release_year_n": 0
+ },
+ "director_raw_equals_credits": true,
+ "snapshot_retrieval_dates": {
+  "movies": {
+   "2026-10-22": 39871
+  },
+  "rt": {
+   "2026-10-23": 39871
+  },
+  "credits": {
+   "2026-10-22": 38430
+  }
+ },
+ "max_release_date_curr": "2026-10-07",
+ "core_pairwise_abs_corr_dev": 0.1984621934098302,
+ "baseline_reproduction_max_abs_pred_diff": {
+  "Hồi quy log_open_prev": {
+   "fit_on_train_rows_of_other_folds_all_strata": 1.3877787807814457e-15,
+   "fit_on_mau_chinh_only": 1.855877801145446
+  },
+  "Median train": {
+   "fit_on_train_rows_of_other_folds_all_strata": 0,
+   "fit_on_mau_chinh_only": 0.030614578320433183
+  },
+  "Y=0": {
+   "fit_on_train_rows_of_other_folds_all_strata": 0,
+   "fit_on_mau_chinh_only": 0
+  }
+ },
+ "baseline_file_ae_equals_abs_Y_minus_pred": true,
+ "baseline_Y_equals_pairs_audit_Y": true,
+ "baseline_covers_dev_only": true,
+ "baseline_pairwise_fold_wins_of_4": {
+  "Hồi quy log_open_prev thap hon Median train o so fold": 1,
+  "Hồi quy log_open_prev thap hon Y=0 o so fold": 1,
+  "Median train thap hon Hồi quy log_open_prev o so fold": 3,
+  "Median train thap hon Y=0 o so fold": 3,
+  "Y=0 thap hon Hồi quy log_open_prev o so fold": 3,
+  "Y=0 thap hon Median train o so fold": 1
+ },
+ "baseline_reference": [
+  {
+   "model": "Hồi quy log_open_prev",
+   "pooled_micro_mae": 0.8253,
+   "macro_fold_mean": 0.8272,
+   "fold1": 0.9166,
+   "fold2": 0.7655,
+   "fold3": 0.9003,
+   "fold4": 0.7264,
+   "franchise_mean_of_means": 0.8844,
+   "mae_stratum_ge1M": 0.6642,
+   "mae_stratum_lt1M": 1.448,
+   "rmse_pooled": 1.2844
+  },
+  {
+   "model": "Median train",
+   "pooled_micro_mae": 0.8124,
+   "macro_fold_mean": 0.8148,
+   "fold1": 0.9154,
+   "fold2": 0.7476,
+   "fold3": 0.9139,
+   "fold4": 0.6821,
+   "franchise_mean_of_means": 0.8787,
+   "mae_stratum_ge1M": 0.6534,
+   "mae_stratum_lt1M": 1.4271,
+   "rmse_pooled": 1.3023
+  },
+  {
+   "model": "Y=0",
+   "pooled_micro_mae": 0.8218,
+   "macro_fold_mean": 0.8241,
+   "fold1": 0.9058,
+   "fold2": 0.7565,
+   "fold3": 0.9344,
+   "fold4": 0.6998,
+   "franchise_mean_of_means": 0.9049,
+   "mae_stratum_ge1M": 0.6684,
+   "mae_stratum_lt1M": 1.415,
+   "rmse_pooled": 1.3087
+  }
+ ],
+ "Y_all_918": {
+  "mean": -0.1454493524909572,
+  "median": -0.1468511455768286,
+  "sd": 1.3446494463201817,
+  "min": -10.36345986171587,
+  "max": 6.646552408190727,
+  "skew": -0.6056341802115442
+ },
+ "Y_dev_725": {
+  "mean": -0.13824075151087886,
+  "median": -0.1638133663562975,
+  "sd": 1.3022536897230583,
+  "min": -9.833339251893156,
+  "max": 6.258373813420926
+ },
+ "Y_dev_main_576": {
+  "share_neg": 0.5920138888888888,
+  "q01": -4.561125307475491,
+  "q50": -0.18118539399718253,
+  "q99": 1.664640427408721,
+  "n_abs_gt3": 12
+ },
+ "dev_main_open_curr_lt_1M": 31,
+ "quality_flag_rows_by_role": {
+  "dev": 6,
+  "test_cuoi": 4
+ },
+ "quality_flag_dev_ids": [
+  "FK00080280__FK00185341",
+  "FK00000256__FK00000255",
+  "FK00000255__FK00000258",
+  "FK00000258__FK00000259",
+  "FK00008982__FK00110552",
+  "FK00454699__FK00823609"
+ ]
+}

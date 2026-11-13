@@ -1,0 +1,11 @@
+{
+  "master_sha256": "2f4f524c073dc80e132d3d4f484c99d7fb34641d6957f9fc17a61e9c24e12323",
+  "rt_n": 674,
+  "rt_pearson": 0.6885017415466189,
+  "rt_spearman": 0.6966861326312709,
+  "gap_gt20": 12,
+  "gap_gt25": 8,
+  "screen_n": 53,
+  "screen_opening_flags": 0,
+  "max_Y_error": 3.0531133177191805e-15
+}

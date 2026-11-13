@@ -1,0 +1,9 @@
+id,description,status,detail
+C01,task3_preflight.py PASS (ma thoat 0),PASS,PREFLIGHT PASS (27 kiem tra). Task 3 chi duoc chay tren dev; khong cham test.
+C02,transition_id duy nhat trong dau vao dev,PASS,725
+C03,"join mot-mot dau vao dev / split / baseline wide (725 dong, khong nhan ban)",PASS,"(725, 725)"
+C04,moi franchise nam trong dung mot fold,PASS,
+C05,"Y huu han; open_prev, open_curr > 0",PASS,
+C06,"5 feature loi la so, huu han, khong thieu",PASS,
+C07,"mien gia tri: gap>0, vi tri nguyen >=2, thang nguyen 1-12, nam 1900-2026",PASS,
+C08,"cot dau vao model khai bao tuong minh, khong chua ID/open_curr/Y",PASS,"['cos_month', 'ln_franchise_position_n', 'ln_gap_years', 'log_open_prev', 'sin_month', 'year_c10']"

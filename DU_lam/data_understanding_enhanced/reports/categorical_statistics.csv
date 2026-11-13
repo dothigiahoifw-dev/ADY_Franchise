@@ -1,0 +1,5 @@
+﻿Column,Non-null cells,Tokens/cell mean,Tokens/cell max,Unique tokens,Unique cell strings,Unique as sets,Cells not numerically sorted %,Top-1 token share %,Top-10 token share %,Tokens appearing once,Top token
+genre_ids,32836,2.0821963698379826,10,19,3833,1573,38.4,14.79,76.65,0,35
+director_ids,34963,1.175986042387667,35,14590,13002,12741,5.2,0.27,2.08,6911,554487
+lead_cast_ids_superset,36329,12.023589969445897,20,183357,34535,34291,90.1,0.06,0.47,113425,135645
+production_company_ids,31518,1.853353639190304,42,14288,14348,13531,24.9,1.35,6.19,7072,5822

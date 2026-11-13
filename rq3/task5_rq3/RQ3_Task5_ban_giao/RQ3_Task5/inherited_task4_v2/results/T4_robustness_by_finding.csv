@@ -1,0 +1,9 @@
+﻿Phát hiện,Chiều,Độ lớn / CI,Cỡ mẫu,Độ vững
+"Toàn mẫu: trung vị −15,2%, 57,0% giảm",Âm trong mẫu cắt ngang A0/A1b/A1/A2,"CI −19,1% đến −7,7%",910/557,"Đổi mẫu ≤ 3,2 điểm %"
+"Vị trí 2: −14,4%","Âm trong mẫu cắt ngang A0/A1b/A1/A2 và kịch bản loại |Y|>3; **PT2 tập cố định {2,3,4}: +37,1%**","CI −22,1% đến −6,5%",512,"Dịch +3,1 điểm % ở A2 (CI −0,16; +8,29)"
+"Vị trí 3: −17,8%","Âm trong mẫu cắt ngang A0/A1b/A1/A2 và kịch bản loại |Y|>3; **PT2 tập cố định {2,3,4}: +0,8%**","CI −26,0% đến −10,2%",204,"Dịch ≤ 0,5 điểm % ở A0/A1/A2"
+"Vị trí 4: +2,2%",Chưa có chiều rõ; CI rộng và chứa 0 (trung vị dương nhỏ trong A0/A1b/A1/A2),"CI −15,8% đến +11,8%",85,Chưa có chiều rõ
+"Vị trí 5: −28,0%","Âm trong mẫu cắt ngang A0/A1b/A1/A2 và kịch bản loại |Y|>3; tập {2,3,4,5} (n=32): −27,9%","CI −36,8% đến −6,4%",41,"Dịch ≤ 0,2 điểm % ở A0/A1/A2; CI rộng"
+"Nhóm ≥6: −1,6%",**Đổi dấu theo cấu hình**,"CI −18,9% đến +16,9%",68/31,Chưa có chiều nhất quán; tỷ lệ Y<0 47–52%
+"PT3: trung vị D −0,466; D<0 72,2%",Âm ở A0/A1b/A1/A2 và tập cố định,"CI −0,609 đến −0,358",176,"Dịch ≤ 0,02 giữa các mẫu"
+"CH: 49/58 franchise có ≥1 đảo chiều; 89/176 cặp (50,6%)",—,"CI theo cặp 43,4%–57,5%",176 cặp/58,"Tham chiếu giả định dấu độc lập 50,0% (không phải kiểm định)"

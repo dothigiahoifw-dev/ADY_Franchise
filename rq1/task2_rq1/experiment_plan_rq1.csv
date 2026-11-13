@@ -1,0 +1,11 @@
+id,question,features,purpose,conditions,comparison,use_of_result,tier
+E0,Hoi quy 1 bien co the tai lap baseline v2 khong?,log_open_prev,Doi chieu tai lap (trung baseline hoi quy v2),Dieu kien fit trung baseline v2 (da xac minh),Phai khop du bao baseline hoi quy theo transition_id,Khong coi la ket qua moi,CHINH
+E1,Gap co bo sung so voi E0?,log_open_prev + ln(gap_years),Tach dong gop khoang cach,A-R1a,E1 vs E0,Neu qua cong S1,CHINH
+E2,Vi tri phan co bo sung so voi E0?,log_open_prev + ln(franchise_position_n),Tach dong gop vi tri,A1 + A-R1b,E2 vs E0,Neu qua cong S1,CHINH
+E3,Mua/nam chieu co bo sung so voi E0?,log_open_prev + sin/cos(thang) + (nam-2000)/10,Tach dong gop lich chieu,A-R1a,E3 vs E0,Neu qua cong S1,CHINH
+E4,Bo loi day du co bo sung so voi E0?,5 feature loi (6 he so doc lap),Mo hinh chinh du kien,"A1, A2, A-R1a, A-R1b",E4 vs E0,Neu qua cong S1,CHINH
+E5,Doi dao dien co bo sung so voi E4 (hoi cuu)?,E4 + is_director_changed,"Hoi cuu, tach tung nhom",Chi sau khi khoa mo hinh chinh; policy chua xac nhan,E5 vs mo hinh chinh da khoa,Khong tham gia chon mo hinh chinh; khong dien giai la du bao truoc opening,HOI CUU
+E6,Doi hang san xuat co bo sung (hoi cuu)?,E4 + studio_changed (+ co thieu),Hoi cuu,Nhu E5,E6 vs mo hinh chinh da khoa,Nhu E5,HOI CUU
+E7,Doi the loai co bo sung (hoi cuu)?,E4 + genre_jaccard,Hoi cuu,Nhu E5,E7 vs mo hinh chinh da khoa,Nhu E5,HOI CUU
+S1,Ket qua co nhay voi 6 dong dev co co chat luong opening?,Cau hinh da khoa; 6 dong co quality_flag_any bi bo khoi TAP FIT cua moi fold (van duoc du bao ngoai fold). Ca ba baseline cung fit lai theo cach nay,Do nhay (khong chon cau hinh),Chi dev,"Danh gia tren CUNG tap dong validation: (a) 719 dong dev khong co co: so run chinh voi run S1, ghep cap theo transition_id; (b) 6 dong co co: bao rieng. Khac biet chi den tu tap fit",Chi bao cao,NHAY CAM
+S2,Ket qua co nhay voi tap fit chi gom open_prev>=1M?,Cau hinh da khoa; fit chi tren dong dev open_prev>=1M cua cac fold con lai; ca ba baseline cung fit lai theo cach nay,Do nhay (khong chon cau hinh),Chi dev,"Danh gia tren CUNG 725 dong dev (ca hai tang), du bao ngoai fold; so run chinh voi run S2 ghep cap theo transition_id",Chi bao cao,NHAY CAM

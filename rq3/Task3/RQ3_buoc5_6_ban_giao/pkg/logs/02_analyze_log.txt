@@ -1,0 +1,14 @@
+B = 10000, seed = 20260101
+PT1 A0 xong (1s)
+PT1 A1b xong (2s)
+PT1 A1 xong (3s)
+PT1 A2 xong (3s)
+Universe chung A0 (562 franchise) xong (6s)
+Do nhay xong (6s)
+PT3 A0 xong (6s)
+PT3 A1b xong (7s)
+PT3 A1 xong (7s)
+PT3 A2 xong (7s)
+PT4 xong (7s)
+LOFO >=6: median Y (transition-weighted) range -0.07862628933651546 0.02853340067534835 | share<0 range 0.484375 0.5151515151515151
+XONG (7s)

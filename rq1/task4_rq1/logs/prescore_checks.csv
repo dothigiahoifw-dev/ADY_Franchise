@@ -1,0 +1,20 @@
+id,description,status,detail
+P01,"manifest_task3.csv: moi file khop hash, khong file thua",PASS,47 file; bad=[]
+P02_split,hash thuc te == hash trong locked_config: split,PASS,ed364617c127 vs ed364617c127
+P02_dev_inputs,hash thuc te == hash trong locked_config: dev_inputs,PASS,b702a9ecd4de vs b702a9ecd4de
+P02_baseline_wide,hash thuc te == hash trong locked_config: baseline_wide,PASS,1ceed3d1e049 vs 1ceed3d1e049
+P02_test_bytes,hash thuc te == hash trong locked_config: test_bytes,PASS,68bda84c6135 vs 68bda84c6135
+P02_design_config_t2,hash thuc te == hash trong locked_config: design_config_t2,PASS,43ea65ed5698 vs 43ea65ed5698
+P03,manifest_outputs.csv Task 2: moi file khop hash,PASS,11 file
+P04,"preflight Task 2 PASS (hash byte test, khong parse)",PASS,PREFLIGHT PASS (27 kiem tra). Task 3 chi duoc chay tren dev; khong cham test.
+P05,hash code Task 3 khop locked_config,PASS,6 file code
+P06,hash t3_common.py ban sao trong goi Task 4 == ban Task 3 da khoa,PASS,
+P07,"locked_config: trang thai khoa, E0, 1 feature log_open_prev, OLS",PASS,E0
+P08,khong thay doi bieu dien trong Task 3,PASS,
+P09,"OOF: 725 dong, ID duy nhat, trung tap dev; fold 178/185/176/186; Y khop dau vao",PASS,
+P10,MAE log gop tinh lai tu OOF khop locked_config (1e-5) va so trong yeu cau (4 chu so),PASS,"{'Y0': 0.8218, 'median': 0.8124, 'E0': 0.8253, 'E1': 0.8324, 'E2': 0.8254, 'E3': 0.8285, 'E4': 0.8311}"
+P11,E1-E4 deu KHONG dat quy tac (MAE gop < E0 va thap hon o >=3/4 fold),PASS,E1: MAE 0.8324 vs E0 0.8253; fold thap hon E0 3/4; dat=False | E2: MAE 0.8254 vs E0 0.8253; fold thap hon E0 2/4; dat=False | E3: MAE 0.8285 vs E0 0.8253; fold thap hon E0 2/4; dat=False | E4: MAE 0.8311 vs E0 0.8253; fold thap hon E0 1/4; dat=False
+P12,E0 tai lap tu dau vao dev: bo cot dung la [log_open_prev]; OOF khop (<1e-9),PASS,9.974659986866641e-17
+P13,baseline Y=0 va median tai lap tu dau vao dev khop OOF,PASS,
+P14,"split_assignment: 725 dev / 193 test, franchise dev-test khong chong lan (khong mo file test)",PASS,"{'dev': 725, 'test_cuoi': 193}"
+P15,"GHI NHAN GIOI HAN: t3_run.py doc rep_decision.json (rep_over) roi van gan REP = {}; nhanh doi bieu dien khong duoc kich hoat trong lan chay da khoa (trigger=False, 0 thay doi)",NOTE,khong sua ZIP/cau hinh/ket qua Task 3

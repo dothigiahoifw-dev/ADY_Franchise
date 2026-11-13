@@ -1,0 +1,1 @@
+Khong cau hinh nao dat (MAE gop < E0 va thap hon E0 o >= 3/4 fold) -> giu E0

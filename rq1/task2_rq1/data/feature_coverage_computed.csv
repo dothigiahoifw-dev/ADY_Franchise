@@ -1,0 +1,17 @@
+column,nonmissing_918,nonmissing_dev,n_dev,miss_pct_918,miss_pct_dev,n_unique,min,max
+log_open_prev,918,725,725,0.0,0.0,915,6.3561076606958915,19.3767250047006
+gap_years,918,725,725,0.0,0.0,662,0.0739219712525667,41.530458590006845
+franchise_position_n,918,725,725,0.0,0.0,14,2.0,15.0
+release_month_n,918,725,725,0.0,0.0,12,1.0,12.0
+release_year_n,918,725,725,0.0,0.0,54,1932.0,2026.0
+is_director_changed,918,725,725,0.0,0.0,2,0.0,1.0
+studio_changed,900,710,725,2.0,2.1,2,0.0,1.0
+genre_jaccard,918,725,725,0.0,0.0,12,0.2,1.0
+production_budget_prev,815,643,725,11.2,11.3,208,7225.0,460000000.0
+production_budget_curr,757,600,725,17.5,17.2,194,199507.0,489900000.0
+critic_score_prev,848,664,725,7.6,8.4,99,0.0,100.0
+audience_score_prev,884,696,725,3.7,4.0,83,9.0,100.0
+vote_count_prev,918,725,725,0.0,0.0,860,9.0,39940.0
+vote_count_curr,918,725,725,0.0,0.0,828,3.0,36892.0
+cast_retention_top5_diag,918,725,725,0.0,0.0,6,0.0,1.0
+theater_count_prev,0,0,725,100.0,100.0,0,,

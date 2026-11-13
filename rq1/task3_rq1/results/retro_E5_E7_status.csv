@@ -1,0 +1,4 @@
+id,features,status,reason
+E5,E4 + is_director_changed,NOT RUN,"Khong co rq1_feature_policy.csv / feature_registry_transitions.csv trong goi Task 2; Task 1 bao director/studio la RQ2_ONLY_PENDING (ke thua, chua kiem). Cot ton tai trong dev khong dong nghia duoc phep dung. Khong chan ket qua loi."
+E6,E4 + studio_changed (+co thieu),NOT RUN,"Khong co rq1_feature_policy.csv / feature_registry_transitions.csv trong goi Task 2; Task 1 bao director/studio la RQ2_ONLY_PENDING (ke thua, chua kiem). Cot ton tai trong dev khong dong nghia duoc phep dung. Khong chan ket qua loi."
+E7,E4 + genre_jaccard,NOT RUN,"Khong co rq1_feature_policy.csv / feature_registry_transitions.csv trong goi Task 2; Task 1 bao director/studio la RQ2_ONLY_PENDING (ke thua, chua kiem). Cot ton tai trong dev khong dong nghia duoc phep dung. Khong chan ket qua loi."

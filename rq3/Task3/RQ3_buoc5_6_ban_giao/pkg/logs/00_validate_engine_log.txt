@@ -1,0 +1,1 @@
+VALIDATE OK: engine khop helper v4 tung lan lap (B=300, seed 20260101, A1b); diem uoc luong khop.

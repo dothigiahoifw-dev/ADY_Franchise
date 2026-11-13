@@ -1,0 +1,12 @@
+franchise_id,title_film2,film3_title,film3_key,film3_release_date_in_data,data_retrieval_date,chain_pos_prev,chain_pos_curr,pair_technically_valid,exclusion_reason,is_unreleased_curr,film2_of_pair_equals_film2_with_Y,film3_release_after_retrieval
+TMDBC1539140,Godzilla x Kong: The New Empire,Godzilla x Kong: Supernova,FK01288438,2027-03-25,2026-10-22,2,3,False,unreleased_film,True,True,True
+TMDBC212562,22 Jump Street,24 Jump Street,FK01712303,2027-12-09,2026-10-22,2,3,False,unreleased_film,True,True,True
+TMDBC350309,Bāhubali 2: The Conclusion,Baahubali: The Eternal War – Part 1,FK01570976,2027-06-10,2026-10-22,2,3,False,unreleased_film,True,True,True
+TMDBC468222,Incredibles 2,Incredibles 3,FK01327821,2028-06-14,2026-10-22,2,3,False,unreleased_film,True,True,True
+TMDBC521226,A Quiet Place Part II,A Quiet Place Part III,FK01324923,2027-07-28,2026-10-22,2,3,False,unreleased_film,True,True,True
+TMDBC529892,Black Panther: Wakanda Forever,Black Panther 3,FK01386618,2028-12-13,2026-10-22,2,3,False,unreleased_film,True,True,True
+TMDBC531315,The Angry Birds Movie 2,The Angry Birds Movie 3,FK01300926,2026-12-23,2026-10-22,2,3,False,unreleased_film,True,True,True
+TMDBC573436,Spider-Man: Across the Spider-Verse,Spider-Man: Beyond the Spider-Verse,FK00911916,2027-06-17,2026-10-22,2,3,False,unreleased_film,True,True,True
+TMDBC726871,Dune: Part Two,Dune: Part Three,FK01170608,2026-12-15,2026-10-22,2,3,False,unreleased_film,True,True,True
+TMDBC89151,Gremlins 2: The New Batch,Gremlins 3,FK01423577,2028-10-05,2026-10-22,2,3,False,unreleased_film,True,True,True
+TMDBC986072,The Wrath of Becky,The Last Temptation of Becky,FK01642568,2026-11-04,2026-10-22,2,3,False,unreleased_film,True,True,True

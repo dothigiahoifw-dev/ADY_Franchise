@@ -1,0 +1,7 @@
+time_utc,stage,event,detail
+2026-11-07T09:43:46Z,prescore,PASS; ghi prescore_record.json (chi hash byte file test),8299a245af2edd9a
+2026-11-07T09:43:49Z,score,bat dau; da xac nhan prescore_record va hash test,
+2026-11-07T09:43:49Z,score,fit tren 725 dong dev,E0: intercept=1.338280 slope=-0.094323; median_Y_dev=-0.163813
+2026-11-07T09:43:49Z,score,kiem tra dau vao test PASS,"193 dong, 113 franchise"
+2026-11-07T09:43:49Z,score,cham 3 phuong an tren 193 dong,MAE E0=0.880115 median=0.882134 Y0=0.887884
+2026-11-07T09:43:49Z,score,tong hop S1/S2 dev (khong chay tren test),max_abs_diff vs Task 3 = 4.44e-16

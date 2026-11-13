@@ -1,0 +1,7 @@
+contrast,statistic,n_from,n_to,value_from,value_to,delta,delta_ci_lo,delta_ci_hi,boot_nan,note
+A0->A1b,median_D,177,176,-0.4649571285043875,-0.46577900164817077,-0.0008218731437832916,-0.033763992333289805,0.0,0,CI chenh lech tu cum rut chung tren 177 franchise cua A0
+A0->A1b,share_D_lt0,177,176,0.7175141242937854,0.7215909090909091,0.0040767847971237,0.0,0.012860413013831985,0,CI chenh lech tu cum rut chung tren 177 franchise cua A0
+A1b->A1,median_D,176,176,-0.46577900164817077,-0.46577900164817077,0.0,0.0,0.0,0,CI chenh lech tu cum rut chung tren 177 franchise cua A0
+A1b->A1,share_D_lt0,176,176,0.7215909090909091,0.7215909090909091,0.0,0.0,0.0,0,CI chenh lech tu cum rut chung tren 177 franchise cua A0
+A1->A2,median_D,176,160,-0.46577900164817077,-0.4524151229353669,0.013363878712803867,-0.04473476363180928,0.06589896162107683,0,CI chenh lech tu cum rut chung tren 177 franchise cua A0
+A1->A2,share_D_lt0,176,160,0.7215909090909091,0.7375,0.015909090909090984,-0.0066470094467402565,0.04187444505708458,0,CI chenh lech tu cum rut chung tren 177 franchise cua A0

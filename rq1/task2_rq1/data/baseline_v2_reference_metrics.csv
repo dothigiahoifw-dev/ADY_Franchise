@@ -1,0 +1,4 @@
+model,pooled_micro_mae,macro_fold_mean,fold1,fold2,fold3,fold4,franchise_mean_of_means,mae_stratum_ge1M,mae_stratum_lt1M,rmse_pooled
+Hồi quy log_open_prev,0.8253,0.8272,0.9166,0.7655,0.9003,0.7264,0.8844,0.6642,1.448,1.2844
+Median train,0.8124,0.8148,0.9154,0.7476,0.9139,0.6821,0.8787,0.6534,1.4271,1.3023
+Y=0,0.8218,0.8241,0.9058,0.7565,0.9344,0.6998,0.9049,0.6684,1.415,1.3087

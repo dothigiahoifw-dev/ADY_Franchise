@@ -1,0 +1,4 @@
+item,max_abs_diff,tolerance,status
+pred_reg_log_open_prev,1.9984014443252818e-15,1e-09,PASS
+pred_median_train,0.0,1e-09,PASS
+pred_Y0,0.0,1e-09,PASS

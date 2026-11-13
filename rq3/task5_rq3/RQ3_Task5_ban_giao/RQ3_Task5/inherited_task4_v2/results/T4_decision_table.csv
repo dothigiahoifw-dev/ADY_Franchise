@@ -1,0 +1,15 @@
+﻿Hạng mục,Quyết định,Bằng chứng,Lý do
+Mẫu chính A1b (910/557),**Giữ**,"Chuyển A0→A1b làm thay đổi trung vị ≤ 0,7 điểm % ở vị trí 2–5, không đổi dấu nào (R5); quy tắc loại là bằng chứng bản ghi đã đặt trước",Phù hợp RQ3; tránh Y=0 nghi vấn; ảnh hưởng nhỏ và đã đo
+"A0, A1",**Giữ làm độ nhạy**,"A1b→A1 đổi trung vị tối đa 0,7 điểm % (vị trí 2–5), −2,76 ở ≥6 vì chỉ 1 transition","Mỗi lần một thay đổi, đã có CI ghép cặp"
+A2 (loại opening < 100.000),"**Chỉ bổ trợ**, đọc là thay đổi thành phần quy mô","Loại 15,5% transition ở vị trí 2; trung vị open_prev ở vị trí 2 tăng 12,4M → 17,1M; 27/44 transition |Y|>3 nằm trong nhóm bị loại",Thay đổi cả cỡ mẫu lẫn thành phần; không quy cho riêng “opening nhỏ”; chưa xác minh tiền tệ
+"PT1: trung vị Y, Q1–Q3, tỷ lệ Y<0/=0/>0, bootstrap theo franchise",**Giữ (CORE)**,"Khớp độc lập; CI tái lập; trung vị âm ở vị trí 2, 3, 5 trong các mẫu cắt ngang A0/A1b/A1/A2 và kịch bản loại |Y|>3 đã xét (PT2 tập cố định cho kết quả khác ở vị trí 2 và 3)",Trả lời trực tiếp RQ3; bền với ngoại lệ
+Số gộp toàn mẫu,**Chỉ bổ trợ**,512/910 transition ở vị trí 2,Phản ánh chủ yếu vị trí 2
+Nhóm ≥6,**Điều chỉnh diễn đạt**: trung vị + CI + phân phối; không nêu chiều,"Trung vị đổi dấu: A1b −1,6%, A2 +2,9%, A1 trọng số franchise −11,3%, LOFO −7,6% đến +2,9%; CI rộng khoảng 35 điểm %; tỷ lệ Y<0 47–52% mọi cấu hình",Chiều đổi giữa cấu hình
+Trọng số franchise (1/k_f) ở ≥6,"**Chỉ bổ trợ**, báo cáo cả hai","Franchise lớn nhất chiếm 8,8% vs 3,2% trọng số",Hai trọng số trả lời hai câu hỏi khác nhau
+"PT3 (D, 176 franchise)","**Giữ bổ trợ**, siết diễn đạt","Trung vị D −0,466, cùng chiều ở A0/A1/A2 và tập cố định",D ≠ opening phim 3 giảm; mẫu chọn lọc
+"D ở 3→4 (n=80), 4→5 (n=37)",**Chỉ bổ trợ**,"3→4: CI chứa 0; 4→5: −0,420 [−0,820; −0,155]",Cỡ mẫu nhỏ
+PT4 / CH,"**Giữ bổ trợ, điều chỉnh**: báo cáo cả 49/58 franchise và 89/176 cặp; mức 50% chỉ là tham chiếu","49/58 franchise có ≥1 đảo chiều; 89/176 cặp (50,6%); tham chiếu giả định dấu độc lập: 50,0% theo cặp, ~47 franchise","Không kết luận dấu độc lập và không giải thích 49/58; chuỗi CH chọn lọc, hai transition kề nhau chia sẻ một opening"
+PT2,"**Làm rút gọn (PT2-lite), chỉ bổ trợ**",Mục 3.6,Trả lời bất định “thành phần hay trong cùng franchise”
+Kịch bản |Y|>3,"**Kiểm tra bổ trợ**, không đổi mẫu chính","44 transition; bỏ chúng đổi trung vị vị trí 2 chỉ +0,70 điểm %; xem 4.3",Câu hỏi: ảnh hưởng của ngoại lệ lên trung vị và lên chênh lệch A1→A2
+LOFO ≥6,**Giữ bổ trợ**,"Trung vị −7,6% … +2,9%",Cho thấy nhạy với một franchise
+"Hồi quy, genre, train/test",**Không làm**,—,RQ3 mô tả; ngoài phạm vi

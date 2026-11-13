@@ -1,0 +1,17 @@
+BƯỚC 5 — CHUẨN BỊ ĐẦU VÀO
+
+Bảng *_input.csv là biến sau biến đổi. Bảng *_design.csv là ma trận biến giải thích, Y và khóa mẫu cho từng mô hình. metadata.json ghi SHA-256.
+
+MỖI ZIP CHẠY ĐỘC LẬP
+Giải nén ZIP trước, mở terminal tại thư mục có run.py.
+Cài thư viện: python -m pip install -r requirements.txt
+Chạy: python run.py --master "duong/dan/analysis_master_transitions.csv"
+Bước 4 có thể chạy đơn giản: python run.py
+Kết quả ghi vào results cạnh run.py. Cần file Master nhóm quản lý cho các bước 3,5,6,7,8.
+common.py chứa hàm tính dùng chung và được giữ trong từng ZIP để chạy độc lập.
+Chạy sẽ ghi lại các kết quả do run.py tạo trong results.
+Code chỉ đọc Master, không thay đổi file đó.
+Dùng Python >=3.10.
+
+Nguồn kết quả gốc: Task 3, Task 4, Task 5 do Duyên bàn giao.
+Mã đã tách theo pipeline chung của RP5; số Task là mốc bàn giao, số bước là công đoạn.

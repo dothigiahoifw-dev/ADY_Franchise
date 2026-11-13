@@ -1,0 +1,104 @@
+{
+ "record": "PRESCORE - ghi truoc khi doc noi dung file test",
+ "time_utc": "2026-11-07T09:43:46Z",
+ "task3_locked_config_sha256": "715121b4824e340a5d1667a45b8425fc68fc6f8c2e4bb7d41422a99b02bb05c5",
+ "task3_manifest_sha256": "ba8f6aaa1c29c515d5fbeff8f60681478a3dfd026ac7664a2902b64c97fb2da0",
+ "hashes_actual": {
+  "split": "ed364617c127c85256cb760d9086156111fa80f0614d984906a09d756dbb70a2",
+  "dev_inputs": "b702a9ecd4deb73ca49f73b43e2ae83564945ef6d69f4fa30efaa620af9a6869",
+  "baseline_wide": "1ceed3d1e049943bfa98f6b1b6e972db9c20aed1f27f42771a091b517788c0aa",
+  "test_bytes": "68bda84c61354af0cd3da19bbf80b1e86f1e6b6c06b946b8f611ebae53e7d8a1",
+  "design_config_t2": "43ea65ed569830c4fe5a172028f9aeebe73ce4fb3476b2d530ae0c502428970e"
+ },
+ "task3_code_sha256": {
+  "t3_checks.py": "4ff1e41e95284eb533d0d1f36e0402a38e232bbf032d66e79d224495adb0134e",
+  "t3_common.py": "2c0b8ba34ba2526196a3338e90f21b3fa86be2dcc6f255c61deea3204f8d82fe",
+  "t3_figures.py": "302268e9336bef5643dfb7a96570593ec313ddabfa10f15f049fd0d9c7f0653c",
+  "t3_lock.py": "aefbe1c49d81483ae56945bd8beb1bd4aa2bfde79094dfa3d22483bce6dc742f",
+  "t3_manifest.py": "a5976b0d7bc299823126e0bc01b2e8e65d7fb3b1428e521698f9355c26506677",
+  "t3_run.py": "c4d8a18ff616656af93d3a437e38c44dd6be6354e4fa77f1312ee6f1f4cfafc4"
+ },
+ "locked_design": {
+  "selected": "E0",
+  "algorithm": "OLS co he so chan, chi log_open_prev = ln(open_prev)",
+  "baselines": [
+   "Y=0",
+   "median Y cua 725 dong dev"
+  ],
+  "e1_e4": "da thu tren dev, khong dat quy tac thay E0; KHONG cham tren test",
+  "fit_for_test": "fit tren toan bo 725 dong dev; he so E0 va median uoc luong lai truoc khi du bao test"
+ },
+ "dev_oof_mae_recomputed": {
+  "Y0": 0.821795,
+  "median": 0.812393,
+  "E0": 0.825309,
+  "E1": 0.832381,
+  "E2": 0.825388,
+  "E3": 0.828491,
+  "E4": 0.831144
+ },
+ "dev_oof_fold_mae": {
+  "Y0": [
+   0.905761,
+   0.756485,
+   0.934441,
+   0.699809
+  ],
+  "median": [
+   0.915436,
+   0.747612,
+   0.91392,
+   0.682145
+  ],
+  "E0": [
+   0.91663,
+   0.765523,
+   0.90029,
+   0.726429
+  ],
+  "E1": [
+   0.911757,
+   0.800984,
+   0.897265,
+   0.72625
+  ],
+  "E2": [
+   0.906903,
+   0.761904,
+   0.903299,
+   0.736797
+  ],
+  "E3": [
+   0.914599,
+   0.77527,
+   0.905569,
+   0.726087
+  ],
+  "E4": [
+   0.899915,
+   0.785456,
+   0.913061,
+   0.733259
+  ]
+ },
+ "evaluation_object": "193 transition test (fold 0), cung tap cho ba phuong an",
+ "metric_definitions": {
+  "primary": "MAE log gop = mean |Y - Y_hat| tren 193 transition",
+  "secondary": [
+   "RMSE log gop",
+   "MAE TB theo franchise (TB cua MAE moi franchise)",
+   "sai so diem phan tram: |100(exp(Y)-1) - 100(exp(Y_hat)-1)|, bao mean va median",
+   "theo tang open_prev <1M va >=1M kem n dong, n franchise"
+  ],
+  "paired": "delta_MAE = MAE_baseline - MAE_E0; duong = E0 sai so thap hon",
+  "bootstrap": "bo tro: boot theo franchise, ghep cap, giu du bao co dinh"
+ },
+ "rule_note": "Quy tac 3/4 fold chi dung giai thich lua chon tren dev; test la mot tap giu lai duy nhat",
+ "selection_reason": "Ca bon cau hinh E1-E4 deu co MAE gop cao hon E0 (E1 +0.0071 du thap hon E0 o 3/4 fold; E2 +0.0001; E3 +0.0032; E4 +0.0058) nen khong cau hinh nao dat cong; giu E0. Chon E0 KHONG co nghia E0 hon baseline don gian.",
+ "known_limitation_task3": "xem P15",
+ "environment": {
+  "python": "3.12.3",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6"
+ }
+}

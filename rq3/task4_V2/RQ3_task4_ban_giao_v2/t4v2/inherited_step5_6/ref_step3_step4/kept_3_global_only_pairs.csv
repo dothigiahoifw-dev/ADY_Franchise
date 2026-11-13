@@ -1,0 +1,4 @@
+﻿transition_id,franchise_id,franchise_position_n,title_prev,title_curr,open_prev,open_curr,Y,f_global_lt_domestic_same_film
+FK00304755__FK00147767,TMDBC1304422,8,Khiladi 420,Khiladi 786,15098.0,228967.0,2.7190156036492183,True
+FK00024348__FK00021925,TMDBC173344,3,Powaqqatsi,Naqoyqatsi,27899.0,17154.0,-0.4863594633228327,True
+FK00031723__FK00056272,TMDBC86668,2,Women in Trouble,Elektra Luxx,12784.0,5601.0,-0.8252492357962247,True

@@ -1,0 +1,14 @@
+PASS PT1: n, F, trung vi, Q1, Q3, ty le, %: tai tinh doc lap khop R2 tren 4 mau x 6 nhom (sai lech toi da 1.8e-15)
+PASS PT1: khong co lan lap nao bi bo vi o rong (tong boot_nan = 0)
+PASS PT1 A1b: CI trong R2 = percentile 2,5/97,5 cua 10.000 ban lap luu trong npz
+PASS PT3 A0: D = Y23-Y12, hai transition chung phim 2
+PASS PT3 A1b: D = Y23-Y12, hai transition chung phim 2
+PASS PT3 A1: D = Y23-Y12, hai transition chung phim 2
+PASS PT3 A2: D = Y23-Y12, hai transition chung phim 2
+PASS PT3: n, trung vi D, ty le D<0, trung vi Y12/Y23 khop R3 (sai lech 5.6e-17)
+PASS CH: 58/234; >=1 dao chieu 49; toan giam 4; toan tang 5 khop R4b
+PASS LOFO >=6: 31 lan bo, trung vi (transition ngang nhau) tai tinh doc lap khop R7
+PASS R8: 6 dong PT1 CHINH chua dung trung vi % va ty le Y<0 cua R2
+PASS R8: dong PT3 CHINH khop R3
+LUU Y R5: 8 dong trong so co contrast="weights" va khong co cot mau rieng (mau nam trong from_/to_); dong A0 va A1b trung gia tri vi nhom >=6 giong het nhau (khong co cap bi loai o >=6 giua A0 va A1b)
+md5 goi buoc 5-6: e8e3164d3a4965ddd249ce9f7e8bf3e2

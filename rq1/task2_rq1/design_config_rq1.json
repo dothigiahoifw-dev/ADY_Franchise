@@ -1,0 +1,89 @@
+{
+ "version": "task2_design_v1",
+ "status": "PHUONG AN KHUYEN NGHI TRIEN KHAI - chua duoc nhom duyet; chua train; chua cham test",
+ "sample": {
+  "main_sample": "all 918 transitions of rq1_split_v2.csv (= y_eligible of pairs_audit.csv)",
+  "extra_exclusions": 0,
+  "strata_report": {
+   "ge_1M": "open_prev >= 1,000,000",
+   "lt_1M": "open_prev < 1,000,000"
+  },
+  "quality_flag_sensitivity_dev_ids": [
+   "FK00080280__FK00185341",
+   "FK00000256__FK00000255",
+   "FK00000255__FK00000258",
+   "FK00000258__FK00000259",
+   "FK00008982__FK00110552",
+   "FK00454699__FK00823609"
+  ]
+ },
+ "split": {
+  "file": "rq1_split_v2.csv",
+  "dev_folds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "test_fold": 0,
+  "by": "franchise_id",
+  "rationale": "giu nguyen split, khong doi seed"
+ },
+ "algorithm": "Linear Regression (OLS, khong phat), quyet dinh cua nhom",
+ "sensitivity": {
+  "S1": {
+   "fit": "bo 6 dong dev co quality_flag_any khoi tap fit moi fold; baseline fit lai cung cach",
+   "evaluation_rows": "cung tap: 719 dong dev khong co co (so run chinh vs S1, ghep cap theo transition_id) + 6 dong co co bao rieng",
+   "purpose": "do nhay, khong chon cau hinh"
+  },
+  "S2": {
+   "fit": "chi dong dev open_prev>=1M cua cac fold con lai; baseline fit lai cung cach",
+   "evaluation_rows": "cung 725 dong dev (ca hai tang), du bao ngoai fold",
+   "purpose": "do nhay, khong chon cau hinh"
+  }
+ },
+ "phase_rules": {
+  "task3_current": "CHI chay tren dev (rq1_inputs_dev.csv, baseline_v2_dev_preds_wide.csv); khong doc rq1_inputs_test_LOCKED.csv; khong cham test",
+  "test_scoring": "o task rieng sau khi khoa cau hinh (hash) va duoc nhom dong y"
+ },
+ "baselines": [
+  "Y=0",
+  "Median Y cua train",
+  "LinearRegression(log_open_prev)"
+ ],
+ "baseline_fit_set": "tat ca dong dev cua cac fold con lai (da tai lap, sai lech <= 1.4e-15)",
+ "features_core_initial_config": {
+  "log_open_prev": "ln(open_prev)",
+  "gap": "ln(gap_years)",
+  "position": "ln(franchise_position_n)",
+  "month": "sin/cos(2*pi*m/12)",
+  "year": "(release_year_n-2000)/10 (hang so co dinh)"
+ },
+ "allowed_representation_changes": "toi da 1 thay doi bieu dien/feature, chi dua tren do thi phan du tren dev (khong dua tren MAE), ghi nhat ky co thoi diem, ap dung dong nhat cho E1-E4",
+ "metrics": {
+  "primary": "MAE log gop (micro) tren du bao ngoai fold cua 725 dong dev",
+  "secondary": [
+   "RMSE",
+   "MAE tung fold + macro tb fold",
+   "MAE tb theo franchise (trung binh cua trung binh)",
+   "MAE theo tang open_prev kem n",
+   "AE diem phan tram (doi tung Y va Y_hat roi moi tinh; bao median va mean)",
+   "chenh lech ghep cap theo transition_id"
+  ]
+ },
+ "selection_rule": {
+  "candidates": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "anchor": "E0",
+  "gate_S1": "MAE gop < E0 va MAE thap hon E0 o it nhat 3/4 fold",
+  "choose": "trong nhom dat: MAE gop thap nhat; neu cau hinh phuc tap hon hon cau hinh don gian hon da dat < 0.005 log thi chon don gian (E1=E2 < E3 < E4); khong dat -> giu E0",
+  "claim_gate": "chi noi hon mot baseline khi MAE gop thap hon va thap hon o >=3/4 fold so voi baseline do; bao rieng tung baseline",
+  "threshold_note": "0.005 la nguong thuc hanh khai bao truoc (khoang 40% khoang cach 0.013 giua cac baseline v2), khong phai kiem dinh thong ke"
+ },
+ "test_protocol": "khoa design_config + split_assignment (hash) truoc khi cham; fit tren toan bo 725 dong dev; cham mot lan; baseline cung fit tren 725 dong dev",
+ "test_exposure_note": "Y cua test da duoc mo ta o cap toan mau (Task 1); Task 2 khong dung test de ra quyet dinh"
+}

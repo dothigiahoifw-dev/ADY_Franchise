@@ -1,0 +1,10 @@
+B=10000 seed=20260101
+C1 xong (0s)
+C2 xong (1s)
+C4 xong (3s)
+C5 xong (3s)
+C6: |Y|>3 trong 126 cap bi loai A1->A2: 27; |Y|>3 trong A1b: 44, trong do thuoc nhom opening nho: 27
+C6 xong (6s)
+CH: so franchise co >=1 dao chieu 49/58; tham chieu (dau doc lap, p<0=0.432) ~ 47.2
+C7 xong (6s)
+XONG (6s)

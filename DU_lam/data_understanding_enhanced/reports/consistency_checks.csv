@@ -1,0 +1,14 @@
+﻿Check,Value
+intl_gt_global_1pct,348.0
+n_intl_global,3341.0
+dom_gt_global_1pct,51.0
+n_dom_global,2344.0
+sum_dev_gt_1pct,464.0
+n_all3,1846.0
+sum_within_1pct,1382.0
+median_abs_dev,1.4296056004312391e-06
+sum_below_global_gt1pct,219.0
+sum_above_global_gt1pct,245.0
+open_gt_dom,10.0
+n_open_dom,2384.0
+exact_equal,886.0

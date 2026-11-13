@@ -1,0 +1,5 @@
+Đã rà 91 mục file trong ba Task, gồm 35 nội dung khác nhau.
+Mọi file gốc đều có vị trí tra cứu khớp byte trong sáu gói bước.
+DANH_MUC_DOI_CHIEU.csv chỉ rõ ánh xạ và SHA-256.
+Bổ sung đầu ra bị sót: bốn cờ opening ở mẫu mở rộng, tương quan khán giả trên tập giao RT, kiểm tra độc lập statsmodels.
+Kết quả và metadata gốc giữ trong doi_chieu_goc nếu đã được gộp/đổi tên.

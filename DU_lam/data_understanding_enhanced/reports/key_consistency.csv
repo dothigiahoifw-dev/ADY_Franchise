@@ -1,0 +1,6 @@
+﻿Dataset,Rows,Unique film_key,Missing film_key,Rows per key (max),Keys in movies_raw,Orphan keys (not in movies_raw),Coverage of movies_raw %
+movies_raw,39871,39871,0,1,39871,0,100.0
+box_office_raw,39871,39871,0,1,39871,0,100.0
+box_office_detailed,29527,29527,0,1,29527,0,74.06
+credits_raw,639728,38430,0,452,38430,0,96.39
+rt_scores,39871,39871,0,1,39871,0,100.0

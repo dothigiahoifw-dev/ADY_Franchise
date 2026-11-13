@@ -1,0 +1,47 @@
+{
+ "artifact": "e0_fitted",
+ "status": "Pipeline cua cau hinh E0 da khoa (RQ1). KHONG phai phuong an da chung minh vuot baseline: tren test E0 chi nhinh hon median/Y=0 rat nho, khoang bootstrap chua 0.",
+ "target": "Y = ln(Open_N) - ln(Open_N-1)",
+ "prediction": {
+  "y_hat": "intercept + coef_log_open_prev * ln(open_prev)",
+  "pct_change": "100 * (exp(y_hat) - 1)"
+ },
+ "model": "Linear Regression OLS co he so chan",
+ "feature_order": [
+  "log_open_prev"
+ ],
+ "feature_transform": {
+  "log_open_prev": "ln(open_prev), open_prev = opening weekend gross cua N-1 (USD, theo quy uoc do cua du lieu du an)"
+ },
+ "intercept": 1.3382799990394312,
+ "coef_log_open_prev": -0.09432304293835982,
+ "n_fit": 725,
+ "n_franchises_fit": 449,
+ "baselines": {
+  "median_Y_dev": -0.1638133663562975,
+  "median_pct_change": -15.109955952102606,
+  "Y0": 0.0,
+  "Y0_rule": "du bao hang so Y_hat = 0 (0% thay doi)"
+ },
+ "fit_input_range_open_prev": {
+  "min": 576.0,
+  "max": 260138569.0,
+  "n_below_1M": 149
+ },
+ "input_rules": "open_prev phai la so huu han > 0; ngoai khoang fit chi canh bao, khong chan",
+ "source": {
+  "dev_inputs_file": "rq1_inputs_dev.csv",
+  "dev_inputs_sha256": "b702a9ecd4deb73ca49f73b43e2ae83564945ef6d69f4fa30efaa620af9a6869",
+  "split_assignment_sha256": "ed364617c127c85256cb760d9086156111fa80f0614d984906a09d756dbb70a2",
+  "task3_locked_config_sha256": "715121b4824e340a5d1667a45b8425fc68fc6f8c2e4bb7d41422a99b02bb05c5",
+  "task4_dev_fit_parameters_sha256": "35c867cad5d50cca52baa629553b707d65b6e2650655b2f1bf503fa55cd7e0f1",
+  "task4_prescore_record_sha256": "8299a245af2edd9a7fd8253cccbb827c997af8c4f7e21cff422ae3fd681134ec"
+ },
+ "fit_reproduces_task4_params_max_abs_diff": 1.1102230246251565e-15,
+ "software": {
+  "python": "3.12.3",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "predict_script": "stdlib only (json, csv, math)"
+ }
+}

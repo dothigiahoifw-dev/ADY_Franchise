@@ -1,0 +1,1 @@
+helper v4 vs ban lap luu trong npz (engine, 10.000 lan): 479 ban lap dau tien khop tung lan lap (trung vi vi tri 2 A1b; ty le Y<0 trong so 1/k_f nhom >=6 A1b), sai lech toi da 8.9e-16. Chay helper day du 10.000 lan KHONG hoan tat (khoang 0,5 s/lan lap, ~80 phut).

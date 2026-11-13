@@ -1,0 +1,12 @@
+time_utc,stage,event,detail
+2026-11-07T03:50:46Z,S0,bat dau,python 3.12.3 numpy 2.5.4 pandas 3.0.6
+2026-11-07T03:50:46Z,S0,kiem tra dau vao,tat ca PASS (xem logs/checks_task3_input.csv)
+2026-11-07T03:50:46Z,S1,tai lap E0 va baseline theo transition_id,"{'pred_reg_log_open_prev': 1.9984014443252818e-15, 'pred_median_train': 0.0, 'pred_Y0': 0.0} -> PASS"
+2026-11-07T03:50:46Z,S2,phan du E4 ban dau (OOF) theo feature,"tieu chi khai bao truoc: >=2 bin lien ke cung dau, moi bin n>=30, |mean|>=0.15, |z|>2; ket qua trigger={'log_open_prev': False, 'gap_years': False, 'franchise_position_n': False, 'release_month_n': False, 'release_year_n': False}"
+2026-11-07T03:50:46Z,S2,quyet dinh bieu dien,giu nguyen bieu dien ban dau (0 thay doi)
+2026-11-07T03:50:46Z,S3,chay E1-E4 va ap quy tac chon,Khong cau hinh nao dat (MAE gop < E0 va thap hon E0 o >= 3/4 fold) -> giu E0
+2026-11-07T03:50:47Z,S4,"chay S1, S2 (cau hinh da chon, khong chon lai)",selected=E0
+2026-11-07T03:50:47Z,S5,phan tich loi theo nhom va theo ID,khong loai dong nao
+2026-11-07T03:50:47Z,S6,E5-E7,NOT RUN; file policy/registry trong goi: []
+2026-11-07T03:52:23Z,S7,ve 5 bieu do + CSV tao hinh,figures/
+2026-11-07T03:52:23Z,S8,khoa phuong an,locked_config_rq1.json; selected=E0; khong mo/cham test

@@ -1,0 +1,5 @@
+stage,n_transitions,n_franchises,note
+S0 cap phim ung vien trong pairs_audit,30113,9718,
+"S1 technically_valid (cung collection, ke tiep, co ngay hop le, khong trung ngay, chua phat hanh)",25943,8731,bo 4170 cap
+S2 co opening ca N-1 va N (y_eligible),918,562,bo 25025 cap thieu opening
+S3 co trong rq1_split_v2.csv,918,562,

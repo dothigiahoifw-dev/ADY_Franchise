@@ -1,0 +1,7 @@
+﻿Variable,n có dữ liệu,Median vote (có),Median vote (thiếu),Rank-biserial,Mann-Whitney p,Cramér V (vote group x có/thiếu)
+production_budget,4192,324.0,2.0,0.749,0.0,0.626
+global_gross,4490,303.0,2.0,0.833,0.0,0.65
+critic_score,6383,67.0,2.0,0.35,0.0,0.518
+audience_score,11351,37.0,2.0,0.497,0.0,0.521
+domestic_gross,2625,1201.0,2.0,0.931,0.0,0.715
+international_gross,5988,78.0,2.0,0.709,0.0,0.527

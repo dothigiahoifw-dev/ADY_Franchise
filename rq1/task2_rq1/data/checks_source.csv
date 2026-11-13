@@ -1,0 +1,26 @@
+id,description,status,critical,detail
+G00_pairs_audit.csv,file nguon ton tai: pairs_audit.csv,PASS,True,
+G00_analysis_master_films.csv,file nguon ton tai: analysis_master_films.csv,PASS,True,
+G00_rq1_split_v2.csv,file nguon ton tai: rq1_split_v2.csv,PASS,True,
+G00_rq1_baseline_dev_preds_v2.csv,file nguon ton tai: rq1_baseline_dev_preds_v2.csv,PASS,True,
+G01,transition_id trong split duy nhat,PASS,True,
+G02,tap ID split == tap y_eligible cua pairs_audit,PASS,True,split=918 eligible=918
+G03,so dong mau/dev/test dung thiet ke (918/725/193),PASS,True,"(918, {'dev': 725, 'test_cuoi': 193})"
+G04,so dong theo fold dung thiet ke,PASS,True,"{0: 193, 1: 178, 2: 185, 3: 176, 4: 186}"
+G05,"dev = fold 1-4, test = fold 0",PASS,True,
+G06,moi franchise dung 1 vai tro va 1 fold,PASS,True,
+G07,khong franchise chong lan dev/test,PASS,True,
+G08,franchise_id split == pairs_audit,PASS,True,
+G09,"opening N-1 va N duong, huu han",PASS,True,
+G10,Y == ln(open_curr) - ln(open_prev) (tol 1e-12),PASS,True,1.7763568394002505e-15
+G11,transition_id == film_key_prev__film_key_curr,PASS,True,
+G12,cap lien tiep: chain_pos_curr - chain_pos_prev == 1,PASS,True,
+G13,ngay chieu N sau N-1 va gap_years = ngay/365.25 (tol 1e-12),PASS,True,
+G14,"mau_chinh == (open_prev >= 1,000,000)",PASS,True,
+G15,opening trong pairs_audit khop analysis_master_films,PASS,True,
+G16,"5 feature loi khong thieu (open_prev, gap, vi tri, ngay chieu)",PASS,True,
+G17,"baseline file: dung 3 model x 725 dong dev, khong trung, khong co dong test",PASS,True,"{'Hồi quy log_open_prev': 725, 'Median train': 725, 'Y=0': 725}"
+G18,"baseline: Y, fold, mau_chinh khop split/pairs_audit",PASS,True,
+G19,baseline: ae_log == |Y - pred|,PASS,True,
+G20,baseline v2 tai lap duoc khi fit tren moi dong dev cua fold con lai (sai lech < 1e-09),PASS,True,"{'Hồi quy log_open_prev': 1.3877787807814457e-15, 'Median train': 0.0, 'Y=0': 0.0}"
+G21,so dong dev co co chat luong = 6 (S1),PASS,True,6

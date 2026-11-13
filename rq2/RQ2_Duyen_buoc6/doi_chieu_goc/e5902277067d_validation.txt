@@ -1,0 +1,33 @@
+PASS: M1 coefficients, CR1 standard errors and t-based confidence intervals match statsmodels within 1e-10.
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      Y   R-squared:                       0.174
+Model:                            OLS   Adj. R-squared:                  0.164
+Method:                 Least Squares   F-statistic:                     17.74
+Date:                Thu, 05 Nov 2026   Prob (F-statistic):           1.25e-22
+Time:                        14:06:23   Log-Likelihood:                -633.30
+No. Observations:                 676   AIC:                             1285.
+Df Residuals:                     667   BIC:                             1325.
+Df Model:                           8                                         
+Covariance Type:              cluster                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept        -1.2193      0.106    -11.554      0.000      -1.427      -1.012
+gap_years         0.0269      0.007      3.769      0.000       0.013       0.041
+part_3           -0.0373      0.061     -0.614      0.540      -0.157       0.082
+part_4+           0.1728      0.054      3.176      0.002       0.066       0.280
+era_pre1990       0.2893      0.075      3.839      0.000       0.141       0.437
+era_1990-1999     0.1231      0.070      1.748      0.081      -0.015       0.261
+era_2000-2009     0.2252      0.063      3.585      0.000       0.102       0.349
+era_2020+        -0.2366      0.076     -3.101      0.002      -0.387      -0.087
+A10               0.1355      0.014      9.543      0.000       0.108       0.163
+==============================================================================
+Omnibus:                       27.346   Durbin-Watson:                   2.068
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               73.032
+Skew:                           0.053   Prob(JB):                     1.38e-16
+Kurtosis:                       4.607   Cond. No.                         46.5
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (CRV1)

@@ -1,0 +1,20 @@
+{
+  "input_sha256": "2f4f524c073dc80e132d3d4f484c99d7fb34641d6957f9fc17a61e9c24e12323",
+  "inference": "CR1 finite-sample covariance G/(G-1)*(N-1)/(N-K); t(G-1) intervals and p-values",
+  "reference_part": "2",
+  "reference_era": "2010-2019",
+  "wide_before_flags": [
+    884,
+    546
+  ],
+  "wide_after_flags": [
+    880,
+    544
+  ],
+  "cook_threshold": 0.005917159763313609,
+  "cook_flag_count": 41,
+  "leave_one_franchise_beta_range": [
+    0.1321676375034403,
+    0.1411057345588204
+  ]
+}

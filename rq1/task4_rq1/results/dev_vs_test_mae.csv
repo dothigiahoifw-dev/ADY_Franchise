@@ -1,0 +1,10 @@
+scope,model,dev_oof_mae,test_mae,test_minus_dev,protocol_note
+tat ca,Y0,0.8217950138384913,0.8878840359781375,0.06608902213964618,"dev: ngoai fold 4 lan; test: fit tren 725 dong, giu lai 193 dong"
+tat ca,median,0.8123928139557661,0.882134474434693,0.06974166047892683,"dev: ngoai fold 4 lan; test: fit tren 725 dong, giu lai 193 dong"
+tat ca,E0,0.8253085773216465,0.8801153275005084,0.05480675017886183,"dev: ngoai fold 4 lan; test: fit tren 725 dong, giu lai 193 dong"
+open_prev >=1M,Y0,0.6683539447079071,0.7539762956244821,0.085622350916575,"dev: ngoai fold 4 lan; test: fit tren 725 dong, giu lai 193 dong"
+open_prev >=1M,median,0.6533877215731481,0.7394544015052907,0.08606667993214268,"dev: ngoai fold 4 lan; test: fit tren 725 dong, giu lai 193 dong"
+open_prev >=1M,E0,0.6642302483457749,0.7441638262006376,0.07993357785486266,"dev: ngoai fold 4 lan; test: fit tren 725 dong, giu lai 193 dong"
+open_prev <1M,Y0,1.4149631736990047,1.43408666110489,0.01912348740588521,"dev: ngoai fold 4 lan; test: fit tren 725 dong, giu lai 193 dong"
+open_prev <1M,median,1.427070218065752,1.4641189824362026,0.03704876437045068,"dev: ngoai fold 4 lan; test: fit tren 725 dong, giu lai 193 dong"
+open_prev <1M,E0,1.4480006410136064,1.4346543459605077,-0.0133462950530987,"dev: ngoai fold 4 lan; test: fit tren 725 dong, giu lai 193 dong"

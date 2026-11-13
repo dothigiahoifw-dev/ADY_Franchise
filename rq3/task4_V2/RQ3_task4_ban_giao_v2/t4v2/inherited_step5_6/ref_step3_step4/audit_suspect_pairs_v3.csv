@@ -1,0 +1,12 @@
+transition_id,franchise_id,title_prev,title_curr,release_date_prev,release_date_curr,open_prev,open_curr,Y,raw_box_office_detailed__domestic_gross_prev,raw_box_office_raw__global_gross_prev,raw_box_office_detailed__domestic_gross_curr,raw_box_office_raw__global_gross_curr,f_open_gt_domestic,f_open_gt_global,f_global_lt_domestic_same_film,f_dup_value_across_films,f_Y_exact_zero
+FK00304755__FK00147767,TMDBC1304422,Khiladi 420,Khiladi 786,2000-12-29,2012-12-07,15098.0,228967.0,2.7190156036492183,26731.0,,379466.0,126.0,False,True,True,False,False
+FK00042818__FK00043146,TMDBC156152,Marius,Fanny,1931-10-09,1932-10-27,7720.0,7720.0,0.0,8262.0,,8262.0,,False,False,False,True,True
+FK00043146__FK00043873,TMDBC156152,Fanny,César,1932-10-27,1936-11-13,7720.0,7720.0,0.0,8262.0,,8262.0,,False,False,False,True,True
+FK00000897__FK00000896,TMDBC158391,Aparajito,The World of Apu,1956-10-11,1959-05-01,16064.0,16064.0,0.0,134241.0,170215.0,134241.0,134241.0,False,False,False,True,True
+FK00024348__FK00021925,TMDBC173344,Powaqqatsi,Naqoyqatsi,1988-04-29,2002-09-02,27899.0,17154.0,-0.4863594633228327,589244.0,589000.0,133058.0,13000.0,False,True,True,False,False
+FK00000256__FK00000255,TMDBC185682,Antoine and Colette,Stolen Kisses,1962-06-22,1968-09-04,11206.0,11206.0,0.0,509.0,,509.0,1500000.0,True,False,False,True,True
+FK00000255__FK00000258,TMDBC185682,Stolen Kisses,Bed and Board,1968-09-04,1970-09-09,11206.0,11206.0,0.0,509.0,1500000.0,509.0,,True,False,False,True,True
+FK00000258__FK00000259,TMDBC185682,Bed and Board,Love on the Run,1970-09-09,1979-01-24,11206.0,11206.0,0.0,509.0,,509.0,,True,False,False,True,True
+FK00037100__FK00030575,TMDBC263101,Sailor Moon R: The Movie - The Promise of the Rose,Sailor Moon S the Movie: Hearts in Ice,1993-12-05,1994-12-04,253490.0,173199.0,-0.3808831520817879,619902.0,12307555.0,167849.0,9940717.0,True,False,False,False,False
+FK00071041__FK00070555,TMDBC378025,The Tiger of Eschnapur,The Indian Tomb,1959-01-21,1959-03-05,4401.0,4401.0,0.0,4673.0,4673.0,4673.0,,False,False,False,True,True
+FK00031723__FK00056272,TMDBC86668,Women in Trouble,Elektra Luxx,2009-11-13,2011-03-11,12784.0,5601.0,-0.8252492357962247,18000.0,18097.0,11514.0,10.0,False,True,True,False,False

@@ -1,0 +1,51 @@
+{
+  "bootstrap": {
+    "B": 10000,
+    "seed": 20260101,
+    "ci": "percentile 95% (2.5%, 97.5%)",
+    "unit": "franchise (whole cluster, with replacement, all copies kept)"
+  },
+  "position_bins": [
+    "2",
+    "3",
+    "4",
+    "5",
+    ">=6"
+  ],
+  "samples": {
+    "A0": 918,
+    "A1b": 910,
+    "A1": 907,
+    "A2": 781
+  },
+  "expected_franchises": {
+    "A0": 562,
+    "A1b": 557,
+    "A1": 555,
+    "A2": 461
+  },
+  "D_expected_franchises": {
+    "A0": 177,
+    "A1b": 176,
+    "A1": 176,
+    "A2": 160
+  },
+  "CH_expected": {
+    "A1b": [
+      58,
+      234
+    ],
+    "A2": [
+      55,
+      225
+    ]
+  },
+  "weights_sensitivity": "w = 1/k_f within >=6 group, k_f computed per boot_cluster",
+  "quantile_rule": "inverse CDF (helper wquantile) for weighted/unweighted comparisons; numpy linear (type 7) for descriptive Q1/Q3 in PT1 table",
+  "inputs": {
+    "master": "/mnt/user-data/uploads/analysis_master_transitions.csv",
+    "films": "/mnt/user-data/uploads/analysis_master_films.csv",
+    "box_office_detailed": "/mnt/user-data/uploads/box_office_detailed.csv",
+    "box_office_raw": "/mnt/user-data/uploads/box_office_raw.csv"
+  }
+}
