@@ -1,0 +1,287 @@
+{
+  "assumptions": [
+    "A1 TMDB collection = franchise (unverified)",
+    "A2 opening_weekend_gross adopted as operationally comparable (assumption A2). Source lacks market scope, currency, opening-window length and theater count; NOT independently verified."
+  ],
+  "task3": {
+    "candidate_source": "generated_in_script_from_tmdb_collection_id (franchise_mapping.py not used)",
+    "external_vs_generated_diff": null,
+    "n_films": 39871,
+    "n_collections_ge2_films": 9718,
+    "n_candidate_pairs": 30113,
+    "n_pairs_technically_valid": 25943,
+    "n_pairs_excluded": 4170,
+    "exclusion_flag_counts_(pairs_may_have_several)": {
+      "invalid_film_id": 0,
+      "self_pair": 0,
+      "duplicate_pair": 0,
+      "collection_missing": 0,
+      "different_collection": 0,
+      "missing_release_date": 731,
+      "tied_release_date": 2343,
+      "not_chronological": 0,
+      "not_adjacent": 0,
+      "collection_has_undated_film": 1751,
+      "unreleased_film": 206
+    },
+    "undated_policy": "exclude"
+  },
+  "task4": {
+    "pairs_technically_valid": 25943,
+    "pairs_Y_eligible": 918,
+    "pairs_Y_ineligible_among_valid": 25025,
+    "valid_pairs_opening_status_prev": {
+      "missing": 24451,
+      "ok": 1492
+    },
+    "valid_pairs_opening_status_curr": {
+      "missing": 24783,
+      "ok": 1160
+    },
+    "valid_pairs_opening_inconsistent_flag": 12,
+    "Y_eligible_with_inconsistent_flag": 4,
+    "opening_non_null_in_source": 2384,
+    "theater_count_non_null_in_source": 0,
+    "comparability_status": "ASSUMED_NOT_VERIFIED",
+    "comparability_note": "opening_weekend_gross adopted as operationally comparable (assumption A2). Source lacks market scope, currency, opening-window length and theater count; NOT independently verified."
+  },
+  "task5": {
+    "feature_columns": [
+      "log_open_prev",
+      "gap_years",
+      "franchise_position_n",
+      "is_director_changed",
+      "cast_retention_top5",
+      "studio_changed",
+      "budget_log_ratio",
+      "release_month_n",
+      "season_n",
+      "season_change",
+      "release_year_n"
+    ],
+    "feature_non_null_all_valid": {
+      "log_open_prev": 0.0575,
+      "gap_years": 1.0,
+      "franchise_position_n": 1.0,
+      "is_director_changed": 0.8558,
+      "cast_retention_top5": 0.742,
+      "studio_changed": 0.7398,
+      "budget_log_ratio": 0.0567,
+      "release_month_n": 1.0,
+      "season_n": 1.0,
+      "season_change": 1.0,
+      "release_year_n": 1.0
+    },
+    "feature_non_null_Y_eligible": {
+      "log_open_prev": 1.0,
+      "gap_years": 1.0,
+      "franchise_position_n": 1.0,
+      "is_director_changed": 1.0,
+      "cast_retention_top5": 0.9967,
+      "studio_changed": 0.9804,
+      "budget_log_ratio": 0.8094,
+      "release_month_n": 1.0,
+      "season_n": 1.0,
+      "season_change": 1.0,
+      "release_year_n": 1.0
+    },
+    "not_used_as_features": {
+      "open_curr / Y": "target side",
+      "critic_score, audience_score": "2026 snapshot; post-release for N",
+      "vote_count": "accumulates after release",
+      "global/domestic/international gross": "lifetime totals",
+      "collection_n_films": "uses later releases (future information)"
+    }
+  },
+  "final": {
+    "transitions_total": 25943,
+    "transitions_model_Y_available": 918,
+    "franchises_in_model_subset": 562,
+    "Y_summary": {
+      "count": 918.0,
+      "mean": -0.1454,
+      "std": 1.3446,
+      "min": -10.3635,
+      "25%": -0.641,
+      "50%": -0.1469,
+      "75%": 0.3322,
+      "max": 6.6466
+    }
+  },
+  "diagnostic": {
+    "outcome_coverage": [
+      {
+        "outcome": "Y",
+        "measurement": "opening_log_change_assumed_comparable",
+        "source": "box_office_detailed.opening_weekend_gross",
+        "valid_pairs": 918,
+        "distinct_franchises": 562,
+        "pairs_also_have_opening_Y": 918,
+        "coverage_of_technical_pairs": 0.035385
+      },
+      {
+        "outcome": "Y_lifetime_global",
+        "measurement": "lifetime_log_gross_change_NOT_opening",
+        "source": "box_office_raw.global_gross",
+        "valid_pairs": 1883,
+        "distinct_franchises": 1046,
+        "pairs_also_have_opening_Y": 838,
+        "coverage_of_technical_pairs": 0.072582
+      },
+      {
+        "outcome": "Y_lifetime_domestic",
+        "measurement": "lifetime_log_gross_change_NOT_opening",
+        "source": "box_office_detailed.domestic_gross",
+        "valid_pairs": 1034,
+        "distinct_franchises": 625,
+        "pairs_also_have_opening_Y": 918,
+        "coverage_of_technical_pairs": 0.039857
+      },
+      {
+        "outcome": "Y_lifetime_international",
+        "measurement": "lifetime_log_gross_change_NOT_opening",
+        "source": "box_office_detailed.international_gross",
+        "valid_pairs": 2694,
+        "distinct_franchises": 1584,
+        "pairs_also_have_opening_Y": 688,
+        "coverage_of_technical_pairs": 0.103843
+      },
+      {
+        "outcome": "critic_score_curr",
+        "measurement": "diagnostic_attribute_NOT_opening_target",
+        "source": "raw_snapshot",
+        "valid_pairs": 3498,
+        "distinct_franchises": 2061,
+        "pairs_also_have_opening_Y": 841,
+        "coverage_of_technical_pairs": 0.134834
+      },
+      {
+        "outcome": "audience_score_curr",
+        "measurement": "diagnostic_attribute_NOT_opening_target",
+        "source": "raw_snapshot",
+        "valid_pairs": 6639,
+        "distinct_franchises": 3620,
+        "pairs_also_have_opening_Y": 882,
+        "coverage_of_technical_pairs": 0.255907
+      },
+      {
+        "outcome": "genre_jaccard",
+        "measurement": "diagnostic_attribute_NOT_opening_target",
+        "source": "raw_snapshot",
+        "valid_pairs": 20376,
+        "distinct_franchises": 7814,
+        "pairs_also_have_opening_Y": 918,
+        "coverage_of_technical_pairs": 0.785414
+      },
+      {
+        "outcome": "production_company_jaccard",
+        "measurement": "diagnostic_attribute_NOT_opening_target",
+        "source": "raw_snapshot",
+        "valid_pairs": 19193,
+        "distinct_franchises": 7060,
+        "pairs_also_have_opening_Y": 900,
+        "coverage_of_technical_pairs": 0.739814
+      },
+      {
+        "outcome": "budget_log_ratio",
+        "measurement": "diagnostic_attribute_NOT_opening_target",
+        "source": "raw_snapshot",
+        "valid_pairs": 1472,
+        "distinct_franchises": 917,
+        "pairs_also_have_opening_Y": 743,
+        "coverage_of_technical_pairs": 0.05674
+      }
+    ],
+    "three_lifetime_scopes_complete_pairs": 683,
+    "three_lifetime_scopes_plus_opening_Y_complete_pairs": 651,
+    "raw_attribute_count": 41,
+    "raw_attribute_usage_note": "All accounted for, not all valid as RQ1 predictors"
+  },
+  "relationship_annotation": {
+    "source": "movie title + TMDB collection chronological context only",
+    "status": "UNVERIFIED_HEURISTIC, NOT film type ground truth",
+    "film_label_counts": {
+      "unclassified": 21144,
+      "first_observed_in_collection": 9330,
+      "sequel_candidate": 8652,
+      "numbered_installment_unknown_type": 636,
+      "repeated_title_unknown_type": 91,
+      "prequel_candidate": 8,
+      "reboot_candidate": 5,
+      "spinoff_candidate": 5
+    },
+    "transition_summary": [
+      {
+        "relationship_type_n": "unclassified",
+        "valid_transitions": 17072,
+        "pairs_with_opening_Y": 567,
+        "distinct_franchises": 5756,
+        "label_status": "UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type"
+      },
+      {
+        "relationship_type_n": "sequel_candidate",
+        "valid_transitions": 8193,
+        "pairs_with_opening_Y": 312,
+        "distinct_franchises": 3572,
+        "label_status": "UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type"
+      },
+      {
+        "relationship_type_n": "numbered_installment_unknown_type",
+        "valid_transitions": 577,
+        "pairs_with_opening_Y": 34,
+        "distinct_franchises": 476,
+        "label_status": "UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type"
+      },
+      {
+        "relationship_type_n": "repeated_title_unknown_type",
+        "valid_transitions": 89,
+        "pairs_with_opening_Y": 4,
+        "distinct_franchises": 73,
+        "label_status": "UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type"
+      },
+      {
+        "relationship_type_n": "prequel_candidate",
+        "valid_transitions": 5,
+        "pairs_with_opening_Y": 1,
+        "distinct_franchises": 3,
+        "label_status": "UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type"
+      },
+      {
+        "relationship_type_n": "spinoff_candidate",
+        "valid_transitions": 4,
+        "pairs_with_opening_Y": 0,
+        "distinct_franchises": 2,
+        "label_status": "UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type"
+      },
+      {
+        "relationship_type_n": "reboot_candidate",
+        "valid_transitions": 3,
+        "pairs_with_opening_Y": 0,
+        "distinct_franchises": 3,
+        "label_status": "UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type"
+      }
+    ]
+  },
+  "all_checks_passed": true,
+  "feature_registry_rq1_allowed_yes": [
+    "log_open_prev",
+    "gap_years",
+    "franchise_position_n",
+    "release_month_n",
+    "release_year_n"
+  ],
+  "limitations": [
+    "Franchise = TMDB collection; may include non-theatrical items, unrelated items, re-releases.",
+    "Opening market/currency/window/theater metadata absent; comparability assumed, not verified.",
+    "opening_weekend_gross is sparse and popularity-selected; Y-eligible sample is a small, biased subset.",
+    "Nominal (not inflation-adjusted) openings across decades; early-era openings may reflect first-run limits.",
+    "Missing-opening films are never bridged; adjacent pairs touching them have missing Y.",
+    "Pairs in collections with undated films excluded by default.",
+    "Rows clustered by franchise_id: use grouped CV / cluster-robust inference.",
+    "Lifetime global, domestic, and international gross changes are secondary diagnostic outcomes only, NOT opening changes.",
+    "The lifetime gross sources differ (TMDB global vs detailed gross), and represent snapshots, not consistent opening windows.",
+    "RT scores and vote_count are 2026 snapshots; current-film scores are prohibited as RQ1 predictors.",
+    "franchise_mapping.py not used: candidate_pairs.py collection tiers/flags/signals not reproduced.",
+    "Relationship types are TITLE-HEURISTIC CANDIDATES only. Sequel/prequel/spin-off/reboot/remake are not established by five raw datasets; majority legitimately unclassified."
+  ]
+}

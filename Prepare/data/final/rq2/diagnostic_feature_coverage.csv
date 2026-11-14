@@ -1,0 +1,16 @@
+﻿attribute,analytical_role,nonmissing_pairs_all,nonmissing_pairs_with_Y,total_valid_pairs,pairs_with_opening_Y,rq1_baseline_predictor
+relationship_type_n,RQ2_EXPLORATORY_TITLE_HEURISTIC,25943,918,25943,918,no
+director_jaccard_snapshot,RQ2_DIAGNOSTIC_SNAPSHOT,22201,918,25943,918,no
+lead_cast_ids_superset_jaccard_snapshot,RQ2_DIAGNOSTIC_SNAPSHOT,23521,918,25943,918,no
+genre_jaccard,RQ2_DIAGNOSTIC_SNAPSHOT,20376,918,25943,918,no
+production_company_jaccard,RQ2_DIAGNOSTIC_SNAPSHOT,19193,900,25943,918,no
+budget_log_ratio,RQ2_DIAGNOSTIC_TIMING_UNVERIFIED,1472,743,25943,918,no
+cast_retention_top5,RQ2_DIAGNOSTIC_TIMING_UNVERIFIED,19249,915,25943,918,no
+is_director_changed,RQ2_DIAGNOSTIC_TIMING_UNVERIFIED,22201,918,25943,918,no
+studio_changed,RQ2_DIAGNOSTIC_TIMING_UNVERIFIED,19193,900,25943,918,no
+critic_score_curr,RQ2_POST_RELEASE,3498,841,25943,918,no
+audience_score_curr,RQ2_POST_RELEASE,6639,882,25943,918,no
+vote_count_curr,RQ2_POST_RELEASE,25943,918,25943,918,no
+Y_lifetime_global,SECONDARY_LIFETIME_OUTCOME,1883,838,25943,918,no
+Y_lifetime_domestic,SECONDARY_LIFETIME_OUTCOME,1034,918,25943,918,no
+Y_lifetime_international,SECONDARY_LIFETIME_OUTCOME,2694,688,25943,918,no

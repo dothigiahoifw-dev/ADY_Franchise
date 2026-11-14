@@ -1,0 +1,16 @@
+﻿check,status,observed
+"film keys unique, no lost films",PASS,39871
+credits preserved at original row grain,PASS,639728
+valid transitions match v3.3,PASS,25943
+all candidates retained,PASS,30113
+candidate valid count same as diagnostic,PASS,25943
+opening Y exactly unchanged,PASS,918
+RQ1 Y rows/values unchanged,PASS,918
+lifetime global log change independently recalculated,PASS,1883
+lifetime domestic log change independently recalculated,PASS,1034
+lifetime international log change independently recalculated,PASS,2694
+critic_score deltas consistent with v3.3,PASS,2044
+audience_score deltas consistent with v3.3,PASS,4391
+candidate valid Y subset equals transitions,PASS,918
+film-level relationship labels complete,PASS,39871
+all raw 41 source columns inventoried,PASS,41

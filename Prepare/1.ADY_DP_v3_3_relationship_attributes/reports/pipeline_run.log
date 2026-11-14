@@ -1,0 +1,5 @@
+2026-11-02 21:59:38,729 INFO as_of=2026-10-22 config={'undated_policy': 'exclude', 'min_opening': 0.0, 'exclude_inconsistent_opening': False, 'low_opening_warn': 1000.0}
+2026-11-02 21:59:41,011 INFO Task3: candidates=30113 valid=25943 excluded=4170
+2026-11-02 21:59:41,481 INFO Task4: valid=25943 Y-eligible=918
+2026-11-02 21:59:43,523 INFO Task5: transitions=25943 model_rows=918
+2026-11-02 21:59:51,713 INFO DONE valid=25943 model=918 franchises=562 all_checks=True

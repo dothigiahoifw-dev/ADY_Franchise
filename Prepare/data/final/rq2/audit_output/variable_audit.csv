@@ -1,0 +1,4 @@
+﻿column,formula,ordering_field,id_based,fewer_than_5,master_nonmissing,recompute_match
+cast_retention_top5,|top5_prev ∩ top5_curr| / 5,credits.billing_order (tăng dần),person_id (TMDB),"thiếu (NaN), không phải 0",19249,1.0
+is_director_changed,set(person_id director N-1) != set(N),không dùng (director không có billing_order),person_id (TMDB),n/a,22201,1.0
+director_jaccard_snapshot,|∩|/|∪| của hai tập đạo diễn,n/a,person_id (TMDB),n/a,22201,1.0

@@ -1,0 +1,20 @@
+﻿feature_name,role,source,time_basis,rq1_allowed,rq2_allowed,evidence_status,note
+Y,target,ln(open_curr)-ln(open_prev),outcome,target,target,decided,Only computed when pair confirmed AND opening_status=comparable AND both openings > 0.
+open_prev,target_input,box_office_detail.opening_weekend_gross (N-1),known_before_N,target_input,target_input,pending,Scope/currency/window of opening NOT documented in source file -> comparability stays pending.
+open_curr,target_input,box_office_detail.opening_weekend_gross (N),outcome,target_input,target_input,pending,Part of Y; never a predictor.
+log_open_prev,feature,ln(open_prev),known_before_N,yes,yes,prediction_time_assumption,Depends on opening comparability rule (pending).
+gap_years,feature,film.release_date (N) - (N-1),pre_release_known,yes,yes,prediction_time_assumption,Assumes the scheduled release date of N is known at prediction time. Team must state the prediction time point.
+is_director_changed,feature,credit(role=director) sets,pre_release_known,no,yes,assumption,Credits are a 2026 TMDB snapshot; directors are normally announced pre-release (assumption).
+cast_retention_top5,feature,credit(role=cast) top-5 by billing_order,pre_release_known,no,yes,assumption,Final billing order is from a 2026 snapshot; pre-release billing may differ -> pending for RQ1. Null if < 5 distinct cast in either film.
+studio_changed,feature,film_company sets,pre_release_known,no,yes,assumption,Production-company lists are a 2026 snapshot (assumed stable).
+budget_prev,feature,film.production_budget (N-1),known_before_N,no,yes,assumption,"~89% null in raw; null is kept, never 0."
+budget_curr,feature,film.production_budget (N),unknown,no,yes,pending,Budget of N is often reported after release -> pending for RQ1.
+critic_score_prev,feature,rt_lookup.critic_score (N-1),snapshot_2026,no,pending,unverified,Scraped 2026-10; not the score visible when N was released. Shared RT URLs unverified.
+audience_score_prev,feature,rt_lookup.audience_score (N-1),snapshot_2026,no,pending,unverified,Same limitation as critic_score_prev.
+vote_count,excluded,film.vote_count,snapshot_2026,no,pending,unverified,2026 snapshot; kept in film table but NOT placed in pair_analysis.
+franchise_position_n,feature,complete_dp_pipeline,pre_release_known,yes,yes,prediction_time_assumption,Rank of N among TMDB-collection films by release date (NOT a formal installment number). Collection list is a 2026 snapshot.
+release_month_n,feature,complete_dp_pipeline,pre_release_known,yes,yes,prediction_time_assumption,From release_date of N.
+season_n,feature,complete_dp_pipeline,pre_release_known,no,yes,assumption,Month->season map in CONFIG.
+season_change,feature,complete_dp_pipeline,pre_release_known,no,yes,assumption,season(N-1) != season(N).
+release_year_n,feature,complete_dp_pipeline,pre_release_known,yes,yes,prediction_time_assumption,Era proxy; collinear with other time effects.
+budget_log_ratio,feature,complete_dp_pipeline,unknown,no,yes,assumption,ln(budget_N/budget_N-1); budget of N often reported post-release; ~90% null.

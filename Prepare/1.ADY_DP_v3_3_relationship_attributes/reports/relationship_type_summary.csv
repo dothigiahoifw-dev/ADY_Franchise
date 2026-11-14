@@ -1,0 +1,8 @@
+﻿relationship_type_n,valid_transitions,pairs_with_opening_Y,distinct_franchises,label_status
+unclassified,17072,567,5756,UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type
+sequel_candidate,8193,312,3572,UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type
+numbered_installment_unknown_type,577,34,476,UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type
+repeated_title_unknown_type,89,4,73,UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type
+prequel_candidate,5,1,3,UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type
+spinoff_candidate,4,0,2,UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type
+reboot_candidate,3,0,3,UNVERIFIED_TITLE_HEURISTIC; NOT independently verified film type

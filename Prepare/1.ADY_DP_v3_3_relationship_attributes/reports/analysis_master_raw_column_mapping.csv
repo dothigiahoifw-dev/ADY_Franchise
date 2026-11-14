@@ -1,0 +1,42 @@
+﻿source_table,raw_column,film_master_representation,transition_prev_column,transition_curr_column,missing_source_rows,purpose,note
+movies,film_key,film_key,film_key_prev,film_key_curr,0,audit/key/source,
+movies,tmdb_id,raw_movies__tmdb_id,raw_movies__tmdb_id_prev,raw_movies__tmdb_id_curr,0,audit/key/source,
+movies,imdb_id,raw_movies__imdb_id,raw_movies__imdb_id_prev,raw_movies__imdb_id_curr,10335,audit/key/source,
+movies,title,raw_movies__title,raw_movies__title_prev,raw_movies__title_curr,0,raw attribute; use only with outcome/time caution,
+movies,release_date_ref,raw_movies__release_date_ref,raw_movies__release_date_ref_prev,raw_movies__release_date_ref_curr,754,raw attribute; use only with outcome/time caution,
+movies,tmdb_collection_id,raw_movies__tmdb_collection_id,raw_movies__tmdb_collection_id_prev,raw_movies__tmdb_collection_id_curr,30,raw attribute; use only with outcome/time caution,
+movies,director_ids,raw_movies__director_ids,raw_movies__director_ids_prev,raw_movies__director_ids_curr,4908,raw attribute; use only with outcome/time caution,
+movies,lead_cast_ids_superset,raw_movies__lead_cast_ids_superset,raw_movies__lead_cast_ids_superset_prev,raw_movies__lead_cast_ids_superset_curr,3542,raw attribute; use only with outcome/time caution,
+movies,production_company_ids,raw_movies__production_company_ids,raw_movies__production_company_ids_prev,raw_movies__production_company_ids_curr,8353,raw attribute; use only with outcome/time caution,
+movies,genre_ids,raw_movies__genre_ids,raw_movies__genre_ids_prev,raw_movies__genre_ids_curr,7035,raw attribute; use only with outcome/time caution,
+movies,production_budget,raw_movies__production_budget,raw_movies__production_budget_prev,raw_movies__production_budget_curr,35679,raw attribute; use only with outcome/time caution,
+movies,budget_missing_flag,raw_movies__budget_missing_flag,raw_movies__budget_missing_flag_prev,raw_movies__budget_missing_flag_curr,0,raw attribute; use only with outcome/time caution,
+movies,release_month,raw_movies__release_month,raw_movies__release_month_prev,raw_movies__release_month_curr,754,raw attribute; use only with outcome/time caution,
+movies,vote_count,raw_movies__vote_count,raw_movies__vote_count_prev,raw_movies__vote_count_curr,0,raw attribute; use only with outcome/time caution,
+movies,source,raw_movies__source,raw_movies__source_prev,raw_movies__source_curr,0,audit/key/source,
+movies,retrieval_date,raw_movies__retrieval_date,raw_movies__retrieval_date_prev,raw_movies__retrieval_date_curr,0,audit/key/source,
+box_office_raw,film_key,film_key,film_key_prev,film_key_curr,0,audit/key/source,
+box_office_raw,market_scope,raw_box_office_raw__market_scope,raw_box_office_raw__market_scope_prev,raw_box_office_raw__market_scope_curr,0,raw attribute; use only with outcome/time caution,
+box_office_raw,global_gross,raw_box_office_raw__global_gross,raw_box_office_raw__global_gross_prev,raw_box_office_raw__global_gross_curr,35381,raw attribute; use only with outcome/time caution,
+box_office_raw,missing_flag,raw_box_office_raw__missing_flag,raw_box_office_raw__missing_flag_prev,raw_box_office_raw__missing_flag_curr,0,raw attribute; use only with outcome/time caution,
+box_office_raw,source,raw_box_office_raw__source,raw_box_office_raw__source_prev,raw_box_office_raw__source_curr,0,audit/key/source,
+box_office_raw,retrieval_date,raw_box_office_raw__retrieval_date,raw_box_office_raw__retrieval_date_prev,raw_box_office_raw__retrieval_date_curr,0,audit/key/source,
+box_office_detailed,film_key,film_key,film_key_prev,film_key_curr,0,audit/key/source,
+box_office_detailed,imdb_id,raw_box_office_detailed__imdb_id,raw_box_office_detailed__imdb_id_prev,raw_box_office_detailed__imdb_id_curr,0,audit/key/source,
+box_office_detailed,domestic_gross,raw_box_office_detailed__domestic_gross,raw_box_office_detailed__domestic_gross_prev,raw_box_office_detailed__domestic_gross_curr,26902,raw attribute; use only with outcome/time caution,
+box_office_detailed,international_gross,raw_box_office_detailed__international_gross,raw_box_office_detailed__international_gross_prev,raw_box_office_detailed__international_gross_curr,23539,raw attribute; use only with outcome/time caution,
+box_office_detailed,opening_weekend_gross,raw_box_office_detailed__opening_weekend_gross,raw_box_office_detailed__opening_weekend_gross_prev,raw_box_office_detailed__opening_weekend_gross_curr,27143,raw attribute; use only with outcome/time caution,
+box_office_detailed,theater_count,raw_box_office_detailed__theater_count,raw_box_office_detailed__theater_count_prev,raw_box_office_detailed__theater_count_curr,29527,raw attribute; use only with outcome/time caution,
+rt_scores,film_key,film_key,film_key_prev,film_key_curr,0,audit/key/source,
+rt_scores,critic_score,raw_rt_scores__critic_score,raw_rt_scores__critic_score_prev,raw_rt_scores__critic_score_curr,33488,raw attribute; use only with outcome/time caution,
+rt_scores,audience_score,raw_rt_scores__audience_score,raw_rt_scores__audience_score_prev,raw_rt_scores__audience_score_curr,28520,raw attribute; use only with outcome/time caution,
+rt_scores,rt_url,raw_rt_scores__rt_url,raw_rt_scores__rt_url_prev,raw_rt_scores__rt_url_curr,19721,audit/key/source,
+rt_scores,rt_status,raw_rt_scores__rt_status,raw_rt_scores__rt_status_prev,raw_rt_scores__rt_status_curr,0,raw attribute; use only with outcome/time caution,
+rt_scores,source,raw_rt_scores__source,raw_rt_scores__source_prev,raw_rt_scores__source_curr,0,audit/key/source,
+rt_scores,retrieval_date,raw_rt_scores__retrieval_date,raw_rt_scores__retrieval_date_prev,raw_rt_scores__retrieval_date_curr,0,audit/key/source,
+credits,film_key,film_key,film_key_prev,film_key_curr,0,audit/key/source,one-to-many credits; original row-level credits NOT flattened
+credits,person_id,credits__* (aggregates); raw credits retains person–film–role rows,credits__*_prev,credits__*_curr,0,raw attribute; use only with outcome/time caution,one-to-many credits; original row-level credits NOT flattened
+credits,role,credits__* (aggregates); raw credits retains person–film–role rows,credits__*_prev,credits__*_curr,0,raw attribute; use only with outcome/time caution,one-to-many credits; original row-level credits NOT flattened
+credits,billing_order,credits__* (aggregates); raw credits retains person–film–role rows,credits__*_prev,credits__*_curr,41116,raw attribute; use only with outcome/time caution,one-to-many credits; original row-level credits NOT flattened
+credits,source,credits__* (aggregates); raw credits retains person–film–role rows,credits__*_prev,credits__*_curr,0,audit/key/source,one-to-many credits; original row-level credits NOT flattened
+credits,retrieval_date,credits__* (aggregates); raw credits retains person–film–role rows,credits__*_prev,credits__*_curr,0,audit/key/source,one-to-many credits; original row-level credits NOT flattened

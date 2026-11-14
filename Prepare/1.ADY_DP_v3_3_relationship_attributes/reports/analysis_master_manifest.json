@@ -1,0 +1,159 @@
+{
+  "inputs": {
+    "movies": {
+      "path": "D:\\3.University\\3.Kì 3\\ADY\\Prj\\5.prepare\\2.New\\1.ADY_DP_v3_3_relationship_attributes\\data\\raw\\movies_raw.csv",
+      "rows": 39871,
+      "sha256": "883e5fc2d1c5b27038c9edfecf3cf124d73c602e1c0aee952c691b9818c50b7c"
+    },
+    "box_office_raw": {
+      "path": "D:\\3.University\\3.Kì 3\\ADY\\Prj\\5.prepare\\2.New\\1.ADY_DP_v3_3_relationship_attributes\\data\\raw\\box_office_raw.csv",
+      "rows": 39871,
+      "sha256": "abeb978f5440b71eb861a5f69e2e8e7680ab10a99c72ee6d6fd955ba8d2e899b"
+    },
+    "box_office_detailed": {
+      "path": "D:\\3.University\\3.Kì 3\\ADY\\Prj\\5.prepare\\2.New\\1.ADY_DP_v3_3_relationship_attributes\\data\\raw\\box_office_detailed.csv",
+      "rows": 29527,
+      "sha256": "32b938114834773a97e7e8bbad84b73d2e3b16fa8fd87f67794b7cc7a1ea1147"
+    },
+    "rt_scores": {
+      "path": "D:\\3.University\\3.Kì 3\\ADY\\Prj\\5.prepare\\2.New\\1.ADY_DP_v3_3_relationship_attributes\\data\\raw\\rt_scores.csv",
+      "rows": 39871,
+      "sha256": "cd70ccb6070a29e766e6b5b5709e51c1cf36f901d27531a3bf66f6e89d236991"
+    },
+    "credits": {
+      "path": "D:\\3.University\\3.Kì 3\\ADY\\Prj\\5.prepare\\2.New\\1.ADY_DP_v3_3_relationship_attributes\\data\\raw\\credits_raw.csv",
+      "rows": 639728,
+      "sha256": "0eecfa4bfddfc8e27082522fc9c8cc7aea745f494bec2bd47cdbda10a392d0f9"
+    }
+  },
+  "outputs": {
+    "analysis_master_films.csv": {
+      "rows": 39871,
+      "columns": 61
+    },
+    "analysis_master_transitions.csv": {
+      "rows": 25943,
+      "columns": 228
+    },
+    "analysis_master_candidates.csv": {
+      "rows": 30113,
+      "columns": 254
+    },
+    "analysis_credits_detail.csv": {
+      "rows": 639728,
+      "columns": 10
+    },
+    "analysis_outcomes_long.csv": {
+      "rows": 32689,
+      "columns": 8
+    }
+  },
+  "coverage": [
+    {
+      "outcome": "Y",
+      "meaning": "Opening-weekend log change; fixed primary target; comparability assumed",
+      "n_valid_pairs_total": 25943,
+      "n_pairs_with_outcome": 918,
+      "pct_valid_pairs_with_outcome": 3.539,
+      "n_distinct_franchises": 562,
+      "n_also_have_opening_Y": 918,
+      "interpretation": "see methodology"
+    },
+    {
+      "outcome": "Y_lifetime_global",
+      "meaning": "Global lifetime gross log change; TMDB source; NOT opening",
+      "n_valid_pairs_total": 25943,
+      "n_pairs_with_outcome": 1883,
+      "pct_valid_pairs_with_outcome": 7.258,
+      "n_distinct_franchises": 1046,
+      "n_also_have_opening_Y": 838,
+      "interpretation": "retrospective only"
+    },
+    {
+      "outcome": "Y_lifetime_domestic",
+      "meaning": "Domestic lifetime gross log change; detailed source; NOT opening",
+      "n_valid_pairs_total": 25943,
+      "n_pairs_with_outcome": 1034,
+      "pct_valid_pairs_with_outcome": 3.986,
+      "n_distinct_franchises": 625,
+      "n_also_have_opening_Y": 918,
+      "interpretation": "retrospective only"
+    },
+    {
+      "outcome": "Y_lifetime_international",
+      "meaning": "International lifetime gross log change; detailed source; NOT opening",
+      "n_valid_pairs_total": 25943,
+      "n_pairs_with_outcome": 2694,
+      "pct_valid_pairs_with_outcome": 10.384,
+      "n_distinct_franchises": 1584,
+      "n_also_have_opening_Y": 688,
+      "interpretation": "retrospective only"
+    },
+    {
+      "outcome": "delta_critic_score_snapshot",
+      "meaning": "Difference in observed critic scores; 2026 snapshot",
+      "n_valid_pairs_total": 25943,
+      "n_pairs_with_outcome": 2044,
+      "pct_valid_pairs_with_outcome": 7.879,
+      "n_distinct_franchises": 1150,
+      "n_also_have_opening_Y": 804,
+      "interpretation": "retrospective only"
+    },
+    {
+      "outcome": "delta_audience_score_snapshot",
+      "meaning": "Difference in observed audience scores; 2026 snapshot",
+      "n_valid_pairs_total": 25943,
+      "n_pairs_with_outcome": 4391,
+      "pct_valid_pairs_with_outcome": 16.926,
+      "n_distinct_franchises": 2363,
+      "n_also_have_opening_Y": 857,
+      "interpretation": "retrospective only"
+    },
+    {
+      "outcome": "budget_log_ratio",
+      "meaning": "Production-budget log change when both budgets positive",
+      "n_valid_pairs_total": 25943,
+      "n_pairs_with_outcome": 1472,
+      "pct_valid_pairs_with_outcome": 5.674,
+      "n_distinct_franchises": 917,
+      "n_also_have_opening_Y": 743,
+      "interpretation": "see methodology"
+    },
+    {
+      "outcome": "vote_count_log_change_snapshot",
+      "meaning": "Log vote-count change, 2026 snapshot; NOT pre-release",
+      "n_valid_pairs_total": 25943,
+      "n_pairs_with_outcome": 17525,
+      "pct_valid_pairs_with_outcome": 67.552,
+      "n_distinct_franchises": 6999,
+      "n_also_have_opening_Y": 918,
+      "interpretation": "retrospective only"
+    },
+    {
+      "outcome": "domestic_share_change_detailed",
+      "meaning": "Change in domestic share of domestic+international reported totals",
+      "n_valid_pairs_total": 25943,
+      "n_pairs_with_outcome": 728,
+      "pct_valid_pairs_with_outcome": 2.806,
+      "n_distinct_franchises": 444,
+      "n_also_have_opening_Y": 688,
+      "interpretation": "see methodology"
+    }
+  ],
+  "source_columns_inventoried": 41,
+  "validation": {
+    "pass": 15,
+    "fail": 0
+  },
+  "fixed_primary_target": "Y=ln(open_N)-ln(open_N-1); unchanged from v3.3",
+  "limitations": [
+    "All franchise membership based on TMDB collection assumption.",
+    "Opening comparability is assumed, not externally verified.",
+    "Lifetime global and detailed domestic/international come from different raw sources.",
+    "Scores and vote counts are snapshots, cannot be assumed pre-release.",
+    "Title-heuristic relationship labels are not verified film relationships.",
+    "Many outcomes missing; never fill missing outcomes with zeros.",
+    "Raw credits remain person-film-role rows, summarized in film master; no row explosion.",
+    "Technically excluded candidate pairs are preserved for auditing, not valid chronological transitions."
+  ]
+}

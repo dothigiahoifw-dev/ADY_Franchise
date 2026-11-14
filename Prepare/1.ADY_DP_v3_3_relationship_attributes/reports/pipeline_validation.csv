@@ -1,0 +1,29 @@
+﻿check_id,category,table,description,status,observed,expected,detail,run_timestamp_utc
+X01,pairs,pairs_audit,Every candidate pair preserved in audit output,PASS,30113 audit rows >= 25943 transitions,>=,,2026-11-02T14:59:51Z
+X02,pairs,transitions,transition_id unique; no duplicate/self pairs,PASS,,,,2026-11-02T14:59:51Z
+X03,pairs,transitions,"Same collection, strictly increasing dates, gap_years > 0",PASS,,,,2026-11-02T14:59:51Z
+X04,pairs,transitions,Adjacent in collection chain (position diff == 1),PASS,,,,2026-11-02T14:59:51Z
+X05,pairs,transitions,No skipped intermediate release,PASS,violations=0,0,No collection film lies strictly between N-1 and N,2026-11-02T14:59:51Z
+X06,pairs,transitions,Undated-collection policy respected,PASS,,,,2026-11-02T14:59:51Z
+X07,target,transitions_model,Y finite; openings > 0; Y == ln(open_curr)-ln(open_prev) recomputed,PASS,918 rows,,,2026-11-02T14:59:51Z
+X08,target,transitions,Y missing for every non-eligible pair,PASS,,,,2026-11-02T14:59:51Z
+X09,leakage,features,No leaky column in feature list,PASS,leaked=[],[],,2026-11-02T14:59:51Z
+X10,grouping,transitions,franchise_id present on all rows (grouped CV),PASS,,,,2026-11-02T14:59:51Z
+X11,pairs,candidates,External candidate file vs in-script generated set,INFO,no external file,,run candidate_pairs.py yourself and pass --candidate-pairs to compare,2026-11-02T14:59:51Z
+X12,raw,data/raw,Raw files byte-identical,PASS,,,,2026-11-02T14:59:51Z
+X13,raw,curated/pair_analysis,"franchise_film.csv, pair.csv, pair_analysis.csv untouched",PASS,,,,2026-11-02T14:59:51Z
+X14,modeling,transitions_model_rq1,RQ1 feature allowlist excludes outcomes and uncertain-timing predictors,PASS,"log_open_prev,gap_years,franchise_position_n,release_month_n,release_year_n",approved core predictors,,2026-11-02T14:59:51Z
+X15,modeling,transitions_model_rq1,Modeling subset equals valid-Y set,PASS,918,918,,2026-11-02T14:59:51Z
+X16,modeling,feature_registry_transitions,RQ1 registry allowlist agrees with RQ1 export,PASS,"log_open_prev,gap_years,franchise_position_n,release_month_n,release_year_n","log_open_prev,gap_years,franchise_position_n,release_month_n,release_year_n",,2026-11-02T14:59:51Z
+X17,diagnostic,transitions_diagnostic,Diagnostic one-to-one with core valid transitions,PASS,25943,25943,,2026-11-02T14:59:51Z
+X18,diagnostic,transitions_diagnostic,Primary Y unchanged by extra outcomes,PASS,Y preserved,identical,,2026-11-02T14:59:51Z
+X19,diagnostic,transitions_diagnostic,Lifetime target derivation independently checked,PASS,3 log differences,3,,2026-11-02T14:59:51Z
+X20,leakage,transitions_model_rq1,No diagnostic/post-release outcomes in RQ1 export,PASS,RQ1 export unchanged,no new diagnostic columns,,2026-11-02T14:59:51Z
+X21,inventory,raw_attribute_inventory,Every raw attribute accounted for,PASS,41,41,,2026-11-02T14:59:51Z
+X22,diagnostic,diagnostic_complete_lifetime_3scopes,Three gross scopes complete on common pairs,PASS,683,no missing lifetime changes,,2026-11-02T14:59:51Z
+X23,relationship,film_relationship_labels,Every source film annotated once; no duplicates,PASS,39871,39871,,2026-11-02T14:59:51Z
+X24,relationship,transitions_diagnostic,Candidate relation labels map to current film,PASS,film_key_curr join,exact,,2026-11-02T14:59:51Z
+X25,leakage,transitions_model_rq1,Relation and post-release features excluded from RQ1 baseline,PASS,none,no new predictors,,2026-11-02T14:59:51Z
+X26,diagnostic,transitions_diagnostic,No diagnostic expansion or primary-Y modification,PASS,25943,25943,,2026-11-02T14:59:51Z
+X27,diagnostic,diagnostic_feature_coverage,All diagnostic feature coverage counted against real paired rows,PASS,15,15,,2026-11-02T14:59:51Z
+X28,modeling,transitions_model_rq1_relationship_EXPLORATORY,Optional label experiment keeps same Y and number of RQ1 rows,PASS,918,918,,2026-11-02T14:59:51Z

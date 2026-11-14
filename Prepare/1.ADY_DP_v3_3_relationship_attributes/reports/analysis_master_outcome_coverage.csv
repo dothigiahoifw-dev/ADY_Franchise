@@ -1,0 +1,10 @@
+﻿outcome,meaning,n_valid_pairs_total,n_pairs_with_outcome,pct_valid_pairs_with_outcome,n_distinct_franchises,n_also_have_opening_Y,interpretation
+Y,Opening-weekend log change; fixed primary target; comparability assumed,25943,918,3.539,562,918,see methodology
+Y_lifetime_global,Global lifetime gross log change; TMDB source; NOT opening,25943,1883,7.258,1046,838,retrospective only
+Y_lifetime_domestic,Domestic lifetime gross log change; detailed source; NOT opening,25943,1034,3.986,625,918,retrospective only
+Y_lifetime_international,International lifetime gross log change; detailed source; NOT opening,25943,2694,10.384,1584,688,retrospective only
+delta_critic_score_snapshot,Difference in observed critic scores; 2026 snapshot,25943,2044,7.879,1150,804,retrospective only
+delta_audience_score_snapshot,Difference in observed audience scores; 2026 snapshot,25943,4391,16.926,2363,857,retrospective only
+budget_log_ratio,Production-budget log change when both budgets positive,25943,1472,5.674,917,743,see methodology
+vote_count_log_change_snapshot,"Log vote-count change, 2026 snapshot; NOT pre-release",25943,17525,67.552,6999,918,retrospective only
+domestic_share_change_detailed,Change in domestic share of domestic+international reported totals,25943,728,2.806,444,688,see methodology

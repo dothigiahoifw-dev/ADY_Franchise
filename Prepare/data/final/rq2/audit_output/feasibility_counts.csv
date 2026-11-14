@@ -1,0 +1,7 @@
+﻿sample,n,franchises,Y&cast_n,Y&cast_franchises,Y&cast_pct_of_sample,Y&director_n,Y&director_franchises,Y&director_pct_of_sample,Y&cast&director_n,Y&cast&director_franchises,Y&cast&director_pct_of_sample,cast&director&audience_prev_n,cast&director&audience_prev_franchises,cast&director&audience_prev_pct_of_sample,cast&director&audience_prev&budget_n,cast&director&audience_prev&budget_franchises,cast&director&audience_prev&budget_pct_of_sample
+Master (tất cả transition),25943,8731,19249,7231,74.2,22201,8198,85.6,17574,6973,67.7,5797,3459,22.3,1235,757,4.8
+Master có Y,918,562,915,560,99.7,918,562,100.0,915,560,99.7,882,545,96.1,725,424,79.0
+"base (open>=1M, có Y)",689,403,689,403,100.0,689,403,100.0,689,403,100.0,676,394,98.1,638,365,92.6
+principal (base + điểm KG + bối cảnh),676,394,676,394,100.0,676,394,100.0,676,394,100.0,676,394,100.0,638,365,94.4
+budget (principal + ngân sách),638,365,638,365,100.0,638,365,100.0,638,365,100.0,638,365,100.0,638,365,100.0
+"wide (open>0, loại 4 cờ; nhánh độ vững)",880,544,878,543,99.8,880,544,100.0,878,543,99.8,878,543,99.8,725,424,82.4

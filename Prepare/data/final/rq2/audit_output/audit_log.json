@@ -1,0 +1,103 @@
+{
+  "master_sha256": "2f4f524c073dc80e132d3d4f484c99d7fb34641d6957f9fc17a61e9c24e12323",
+  "master_shape": [
+    25943,
+    228
+  ],
+  "credits_shape": [
+    639728,
+    10
+  ],
+  "integrity": {
+    "transition_id_duplicates": 0,
+    "pair(film_prev,film_curr)_duplicates": 0,
+    "film_key_curr_appearing_in_>1_transition": 0,
+    "credits_rows": 639728,
+    "credits_roles": {
+      "cast": 598612,
+      "director": 41116
+    },
+    "credits_dup_(film,person,role)": 1021,
+    "credits_dup_groups_all_cast_with_different_billing_order": true,
+    "cast_billing_order_null": 0,
+    "director_rows_with_billing_order": 0,
+    "cast_dup_billing_order_within_film": 3,
+    "films_with_cast_rows": 36329,
+    "films_with_<5_cast_rows": 5823,
+    "films_with_director_rows": 34963,
+    "films_with_>1_director": 3303,
+    "credits_sources": {
+      "TMDB": 639728
+    },
+    "credits_retrieval_dates": {
+      "2026-10-22": 639728
+    },
+    "films_where_top5_rows_contain_repeated_person": 65,
+    "films_with_billing_tie_exactly_at_5th/6th_boundary": 0
+  },
+  "cast_retention_recompute": {
+    "formula_verified": "|top5_prev ∩ top5_curr| / 5, chỉ tính khi CẢ HAI phim có >=5 diễn viên (person_id), top5 theo billing_order tăng dần",
+    "master_nonmissing": 19249,
+    "my_nonmissing": 19249,
+    "availability_agree": true,
+    "value_match_on_master_nonmissing": 1.0,
+    "master_missing_because_<5_cast_either_side": 4272,
+    "master_missing_because_no_cast_rows_at_all": 2422,
+    "retention_zero_total": 5506,
+    "retention_zero_with_missing_cast_sets(should_be_0)": 0,
+    "top5_from_movies_raw_superset_equals_top5_from_credits": 1.0
+  },
+  "director_recompute": {
+    "formula_verified": "is_director_changed = (tập person_id đạo diễn N-1) != (tập N); thiếu nếu một phim không có dòng director",
+    "master_nonmissing": 22201,
+    "my_nonmissing": 22201,
+    "availability_agree": true,
+    "changed_match": 1.0,
+    "jaccard_match": 1.0,
+    "overlap_count_match": 1.0,
+    "missing_director_rows_prev": 3123,
+    "missing_director_rows_curr": 3218,
+    "missing_director_not_converted_to_FALSE": true,
+    "columns_is_director_changed_equals_director_changed_snapshot": false,
+    "partial_overlap_pairs_master(0<jaccard<1)": 1257,
+    "partial_overlap_pairs_flagged_changed": 1257
+  },
+  "aggregate_consistency": {
+    "credits__rows_prev_equals_count_in_credits_file": 1.0,
+    "credits__rows_curr_equals_count_in_credits_file": 1.0
+  },
+  "concentration_principal": {
+    "n": 676,
+    "franchises": 394,
+    "singleton_franchises": 248,
+    "largest_franchise_n": 10,
+    "largest_franchise_share_pct": 1.5,
+    "top5_franchises_share_pct": 6.8,
+    "franchises_with_>=2_transitions": 146,
+    "of_which_director_varies_within_franchise": 66,
+    "of_which_cast_retention_varies_within_franchise": 95,
+    "transitions_in_franchises_with_>=2": 428
+  },
+  "descriptive_principal": {
+    "NOTE": "mô tả đơn biến/cặp biến trên mẫu principal; không điều chỉnh biến bối cảnh; không suy ra nhân quả",
+    "spearman_cast_vs_Y": 0.082,
+    "spearman_dirchanged_vs_Y": -0.077,
+    "spearman_cast_vs_dirchanged": -0.311,
+    "spearman_cast_vs_gap_years": -0.222,
+    "spearman_dirchanged_vs_gap_years": 0.179,
+    "spearman_cast_vs_audience_prev": 0.224,
+    "spearman_dirchanged_vs_audience_prev": -0.244,
+    "Y_mean_by_director": {
+      "0.0": -0.046,
+      "1.0": -0.148
+    },
+    "Y_median_by_director": {
+      "0.0": -0.07,
+      "1.0": -0.185
+    },
+    "cast_retention_mean_by_director": {
+      "0.0": 0.528,
+      "1.0": 0.335
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿case,transition_id,title_prev,title_curr,master_cast_ret,recomputed_cast_ret,top5_prev_ids,top5_curr_ids,ncast_prev,ncast_curr,master_dir_changed,recomputed_dir_changed,dir_overlap,dir_prev_ids,dir_curr_ids
+cast_ret = 0,FK00011531__FK00351211,Book of Shadows: Blair Witch 2,Blair Witch,0.0,0.0,4889|52886|57514|69748|69750,1181426|1223879|1232689|1486488|1618066,,,True,1.0,0.0,69237,98631
+cast_ret = 0,FK00343668__FK00476669,Kingsman: The Golden Circle,The King's Man,0.0,0.0,1231|2983|5472|931785|1303037,1247|2441|5469|7026|59620,,,False,0.0,1.0,957,957
+cast_ret = 1,FK00010246__FK00019698,Porky's,Porky's II: The Next Day,1.0,1.0,64221|64222|64223|64224|174653,64221|64222|64223|64224|174653,,,False,0.0,1.0,12698,12698
+cast_ret = 1,FK00011836__FK00228165,The SpongeBob SquarePants Movie,The SpongeBob Movie: Sponge Out of Water,1.0,1.0,6574|34398|70615|78798|188229,6574|34398|70615|78798|188229,,,True,1.0,0.0,70651,64151|217174
+cast_ret = 0.4 (mức giữa),FK00018935__FK00026386,Ernest Goes to Camp,Ernest Saves Christmas,0.4,0.4,2886|12899|17580|136105|142106,2886|12899|75021|84915|140778,,,False,0.0,1.0,83961,83961
+cast_ret = 0.4 (mức giữa),FK00338952__FK00338953,Fantastic Beasts: The Crimes of Grindelwald,Fantastic Beasts: The Secrets of Dumbledore,0.4,0.4,85|37632|58873|77795|998225,1019|9642|37632|58873|132157,,,False,0.0,1.0,11343,11343
+cast_ret = 0.6 (mức giữa),FK00363088__FK00640146,Ant-Man and the Wasp,Ant-Man and the Wasp: Quantumania,0.6,0.6,3392|19034|22226|79082|1408809,1160|3392|19034|22226|1674162,,,False,0.0,1.0,59026,59026
+director không đổi,FK00062837__FK00227735,Dolphin Tale,Dolphin Tale 2,0.6,0.6,192|18052|18688|970216|972951,10823|15852|18052|18688|972951,,,False,0.0,1.0,1270,1270
+director không đổi,FK00592350__FK00768744,My Hero Academia: Heroes Rising,My Hero Academia: World Heroes' Mission,0.4,0.4,1245094|1247771|1325962|1919754|2040402,84507|149894|1149341|1245094|1325962,,,False,0.0,1.0,1307036,1307036
+director đổi hoàn toàn (overlap 0),FK00001368__FK00001369,First Blood,Rambo: First Blood Part II,0.4,0.4,6197|16483|16554|16555|16556,782|16119|16483|16554|16578,,,True,1.0,0.0,16544,16566
+director đổi hoàn toàn (overlap 0),FK00056780__FK00134371,Atlas Shrugged: Part I,Atlas Shrugged: Part II,0.0,0.0,12793|13657|39391|56385|221809,20767|37203|58791|65344|167825,,,True,1.0,0.0,73035,21475
+"director đổi một phần (đa đạo diễn, overlap>0)",FK00093456__FK00324852,Despicable Me 2,Despicable Me 3,0.8,0.8,4495|4589|17743|41091|124750,4495|17743|34517|41091|124750,,,True,1.0,1.0,124747|124748,8023|124747
+"director đổi một phần (đa đạo diễn, overlap>0)",FK00211672__FK00438148,Minions,Minions: The Rise of Gru,0.0,0.0,19|2232|4581|18277|65717,1620|1903|4495|40036|124747,,,True,1.0,1.0,8023|124747,8023
+"director đổi một phần (đa đạo diễn, overlap>0)",FK00010527__FK00080321,Madagascar: Escape 2 Africa,Madagascar 3: Europe's Most Wanted,1.0,1.0,2632|6730|7399|9575|14409,2632|6730|7399|9575|14409,,,True,1.0,2.0,18863|18864,12080|18863|18864
+cast_ret THIẾU (<5 diễn viên một bên) - không bị đổi thành 0,FK00050864__FK00264580,Åens Havørred - Spin,The Fish & The Fly 1: Dry Flies,,,1310033,1309951,1.0,1.0,False,0.0,1.0,1309952,1309952
+cast_ret THIẾU (<5 diễn viên một bên) - không bị đổi thành 0,FK01645078__FK01645069,Squirtamania 21,Squirtamania 17,,,233274|550183|930761|1043337|2296892,123091|138184|142231|150132,5.0,4.0,,,,,
+cast_ret THIẾU (<5 diễn viên một bên) - không bị đổi thành 0,FK01107077__FK01323724,Puzzle Box,Puzzle Box: The Glitch,,,1829220|2401973|2609447|2670041|3987740,2670041|3181414|4786387|4860362,6.0,4.0,False,0.0,1.0,3181421,3181421
+director THIẾU (không có dòng director) - không bị đổi thành FALSE,FK01361732__FK01361733,Dark Tails,Dark Tails 2,0.0,0.0,1444691|1524805|1552226|1666341|1685050,1364651|1908008|2447882|2493608|2519449,7.0,7.0,,,,,
+director THIẾU (không có dòng director) - không bị đổi thành FALSE,FK00669122__FK00935092,Alien Invasion,Alien Invasion 2,,,1258713|1320545|2527420|2527422,1258710|1320545|1954829|2405688|3413508,4.0,7.0,,,,2527423,
+director THIẾU (không có dòng director) - không bị đổi thành FALSE,FK00729042__FK01245793,Ghost Trade,人鬼交易所2,,,2225237|2778385,2225237|2778385,2.0,2.0,,,,3248329,

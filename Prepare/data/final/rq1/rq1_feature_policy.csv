@@ -1,0 +1,12 @@
+﻿feature_name,usage,reason
+log_open_prev,RQ1_CORE,Previous opening is observed before the planned release of N
+gap_years,RQ1_CORE,Assume scheduled release date of N known at prediction time
+franchise_position_n,RQ1_CORE,Past release count and upcoming position assumed known; historical collection snapshot needs caution
+release_month_n,RQ1_CORE,Assume announced release month known at prediction time
+release_year_n,RQ1_CORE,Assume announced release year known at prediction time
+season_n,RQ1_REDUNDANT,Derived deterministically from release_month_n
+season_change,RQ1_REDUNDANT,Related to release_month_n; prefer simpler temporal feature
+is_director_changed,RQ2_ONLY_PENDING,2026 credit snapshot; verify pre-release availability before RQ1
+cast_retention_top5,RQ2_ONLY_PENDING,Final billing order may be known only after release
+studio_changed,RQ2_ONLY_PENDING,Current company snapshot may not equal pre-release announced status
+budget_log_ratio,RQ2_ONLY_PENDING,Budget of N historically unavailable/mostly missing
